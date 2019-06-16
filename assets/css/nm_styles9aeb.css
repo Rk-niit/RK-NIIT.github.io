@@ -1,0 +1,5736 @@
+
+/* ----- Body Styles ----- */
+
+@font-face {
+    font-family: 'GillSansBold';
+    src: url('https://staticmain.narendramodi.in/fonts/GillSansBold.eot');
+    src: url('https://staticmain.narendramodi.in/fonts/GillSansBold.eot') format('embedded-opentype'), url('https://staticmain.narendramodi.in/fonts/GillSansBold.woff2') format('woff2'), url('https://staticmain.narendramodi.in/fonts/GillSansBold.woff') format('woff'), url('https://staticmain.narendramodi.in/fonts/GillSansBold.ttf') format('truetype'), url('https://staticmain.narendramodi.in/fonts/GillSansBold.svg#GillSansBold') format('svg');
+}
+@font-face {
+    font-family: 'gillsanwebfont';
+    src: url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.eot');
+    src: url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.eot') format('embedded-opentype'), url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.woff2') format('woff2'), url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.woff') format('woff'), url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.ttf') format('truetype'), url('https://staticmain.narendramodi.in/fonts/gillsanwebfont.svg#gillsanwebfont') format('svg');
+}
+@font-face {
+    font-family: 'gillsansmt';
+    src: url('https://staticmain.narendramodi.in/fonts/gillsansmt.eot');
+    src: url('https://staticmain.narendramodi.in/fonts/gillsansmt.eot') format('embedded-opentype'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.woff2') format('woff2'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.woff') format('woff'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.ttf') format('truetype'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.svg#gillsansmt') format('svg');
+}
+@font-face {
+    font-family: 'GillSans';
+    src: url('https://staticmain.narendramodi.in/fonts/gillsansmt.eot');
+    src: url('https://staticmain.narendramodi.in/fonts/gillsansmt.eot') format('embedded-opentype'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.woff2') format('woff2'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.woff') format('woff'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.ttf') format('truetype'), url('https://staticmain.narendramodi.in/fonts/gillsansmt.svg#gillsansmt') format('svg');
+}
+@font-face {
+    font-family: 'ufonts_com_gillsans';
+    src: url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.eot');
+    src: url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.eot') format('embedded-opentype'), url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.woff2') format('woff2'), url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.woff') format('woff'), url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.ttf') format('truetype'), url('https://staticmain.narendramodi.in/fonts/ufonts_com_gillsans.svg#ufonts_com_gillsans') format('svg');
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    color: #3B3B3B;
+
+    overflow-x: hidden;
+}
+body > .row {
+    margin: 0;
+    width: 100%;
+}
+/* ----- Links ----- */
+
+
+
+/* ----- Headings ----- */
+
+
+
+/* ----- Other Elements ----- */
+
+
+
+/*****************
+ * HELPER STYLES *
+ *****************/
+
+/* ----- Forms ----- */
+
+
+/*.btn_theme {
+    color: #2e3192;
+    background-color: #111;
+    border-color: #333;
+    border-radius: 0;
+}*/
+
+
+.btn_theme[type="button"] {
+    font-size: 13px !important;
+    color: #2e3192 !important;
+    background: #242021 !important;
+    background: url("../images/r_arrowIcon.gif") no-repeat scroll right top #242021 !important;
+    padding: 1px 4px 0px 10px !important;
+    letter-spacing: -0.3px !important;
+    height: 18px;
+    border: none;
+    position: relative;
+    width: 60px!important;
+    text-align: left;
+    border-radius: 0;
+}
+.btn_theme {
+    font-size: 13px !important;
+    color: #2e3192 !important;
+    background: #242021 !important;
+    /* background: url("../images/r_arrowIcon.png") no-repeat scroll right top #242021 !important;*/
+    padding: 1px 4px 0px 10px !important;
+    letter-spacing: -0.3px !important;
+    height: 21px;
+    border: none;
+    position: relative;
+    min-width: 60px;
+    width: auto;
+    text-align: left;
+    border-radius: 0;
+}
+.btn_theme:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+.btn_theme::after, .btn_theme::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid;
+    right: -12px;
+}
+.btn_theme::after {
+    z-index: 2;
+    border-left-color: #242021;
+}
+
+
+.btn_theme::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -9px;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid;
+    right: -9px;
+}
+
+
+
+.btn_theme_update {
+    border: none;
+    background: #2e3192;
+    border-left: #20b7cd solid 5px;
+    padding: 2px 15px;
+    font-family: 'ek_muktaregular';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.btn_theme_update:hover {
+    background: #20b7cd;
+    border-left: #2e3192 solid 5px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+
+.btn_theme_update21 {
+    border: none;
+    background: #2e3192;
+    border-left: #20b7cd solid 5px;
+    padding: 2px 15px;
+    font-family: 'ek_muktaregular';
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.btn_theme_update21:hover {
+    background: #20b7cd;
+    border-left: #2e3192 solid 5px;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.btn_theme::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    margin-top: -12px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid;
+    right: -11px;
+}
+
+.btn_theme:focus, .btn_theme.focus, .btn_theme:active, .btn_theme.active, .open > .dropdown-toggle.btn_theme {
+    color: #F0F0F0;
+    background-color: #4A4A4A;
+    border-color: #8A8A8A;
+    text-decoration: none;
+}
+/* ----- Notifications & Errors ----- */
+
+.required_feild_indication {
+    text-align: center;
+}
+.egreeting_notify {
+    padding: 15px;
+    border: 1px solid #3c763d;
+    border-radius: 3px;
+}
+/* ----- Consistent Items ----- */
+
+
+#nm_main_sidebar .panel_theme {
+    background: url(../images/shadow_widget.jpg) #fff;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 30px;
+    border-bottom: none;
+}
+.panel_theme {
+    border-color: transparent;
+    border-radius: 0;
+    background: /*url(../images/shadow_widget.jpg)*/ #fff;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding-bottom: 30px;
+    border-bottom: none;
+}
+.panel_theme > .panel-heading {
+    color: #000;
+    background-color: #2e3192;
+    border-color: transparent;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.panel_theme > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+.panel_theme > .panel-heading .badge {
+    color: #f5f5f5;
+    background-color: #333;
+}
+.panel_theme > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: transparent;
+}
+.btn_theme:hover, .btn_theme:focus, .btn_theme.focus, .btn_theme:active, .btn_theme.active, .open > .dropdown-toggle.btn_theme {
+    color: #2e3192;
+    background-color: #2E2E2E;
+    border-color: #111;
+}
+.btn_theme:active, .btn_theme.active, .open > .dropdown-toggle.btn_theme {
+    background-image: none;
+}
+a#back_to_top {
+    display: none;
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 15px;
+    right: 16px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.40);
+    color: #FFF !important;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 14px;
+}
+a#back_to_top:hover {
+    text-decoration: none;
+}
+/******************
+ * PAGE STRUCTURE *
+ ******************/
+
+/* ----- Headers, Footers & Navigation ----- */
+
+footer#nm_index_footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999;
+    background: #CFCFCF;
+    text-align: center;
+}
+section.nm_index_navigation {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0;
+    padding: 0 15px;
+    z-index: 99;/*background: #F39400;*/
+}
+#nm_logo {
+    padding-left: 0;
+    padding-right: 0;
+    background: #F39400;
+}
+#nm_logo img {
+    width: 100%;
+    max-width: 196px;
+}
+.navigation_main > .row {
+    position: relative;
+}
+.navigation_main > div {
+}
+.navigation_title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* width: 300px; */
+    float: right;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #F39400;
+    height: 89px;
+    font-size: 18px;
+    display: table;
+    z-index: 109;
+}
+.navigation_title span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.navigation_title span a {
+    color: #2E2E2E;
+    font-weight: bold;
+}
+.navigation_title span a:hover, .navigation_title span a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+.navigation_title span i {
+    color: #FFF;
+    cursor: pointer;
+}
+span.nav_title_divider div {
+    width: 2px;
+    height: 50px;/*background: #2E2E2E;*/
+}
+ul.nav_content1 {
+    position: inherit;
+    display: block;
+}
+ul.nav_content2 {
+    position: inherit;
+    display: none;
+}
+a.nav_title_active {
+    color: #FFF !important;
+}
+#nm_navigation {
+    padding: 0 15px;
+    background: #F7921E;
+    /*
+    z-index: 9;   
+    position: relative;
+overflow: hidden;
+    */
+}
+
+/*.mankiBatMedia{
+    margin-left:43px!important;	
+}*/
+.boxSep {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 10px;
+    float: left;
+    margin-right: 30px;
+    width: 100%;
+}
+.newsImg img {
+    max-width: 100%;
+    height: auto;
+}
+#nm_navigation .navigation_title {
+    width: 320px;
+    position: relative;
+    background: url(../images/inner_page_nav_title_bg.jpg) repeat-y #F39400 40% center;
+}
+#nm_navigation .nav_content1 {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    top: 0;
+    width: 42%;
+    left: -42%;
+    height: 100%;
+    -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);/*z-index: 9999999999;*/
+}
+#nm_navigation .nav_content1 > li {
+    padding: 0 15px;
+    text-align: right;
+    position: relative;
+}
+#nm_navigation .nav_content1 > li.close_nav_content1 {
+    text-align: center;
+}
+#nm_navigation .nav_content1 > li.close_nav_content1:hover {
+    background: none;
+}
+#nm_navigation .nav_content1 > li.close_nav_content1 a {
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: right;
+    margin-right: -25px;
+}
+#nm_navigation .nav_content1 > li.close_nav_content1 a:hover, #nm_navigation .nav_content1 > li.close_nav_content1 a:focus {
+    outline: 0;
+    color: #FFF;
+}
+#nm_navigation .nav_content1 > li:hover {
+    background: #F7921E;
+}
+#nm_navigation .nav_content1 > li:hover > .dropdown {
+    visibility: visible;
+}
+#nm_navigation .nav_content1 > li > a {
+    display: block;
+    padding: 15px 0;
+    color: #CCC;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    font-weight: bold;
+}
+#nm_navigation .nav_content1 > li:last-child > a {
+    border-bottom: none;
+}
+#nm_navigation .nav_content1 > li > a:hover {
+    color: #231F20;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+#nm_navigation .nav_content1 .dropdown {
+    visibility: hidden;
+}
+#nm_navigation .dropdown {
+    position: absolute;
+    width: 170px;
+    background: url(https://staticmain.narendramodi.in/images/inner_page_dropdown_bg.jpg) repeat-y center #F7921E;
+    right: -170px;
+    top: 0;
+    padding: 0 0;
+    -webkit-box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.25);
+}
+#nm_navigation .dropdown ul {
+}
+#nm_navigation .dropdown ul > li {
+    font-weight: normal;
+    text-align: left;
+}
+#nm_navigation .dropdown ul > li > a {
+    display: block;
+    padding: 10px 30px;
+    color: #231F20;
+}
+#nm_navigation .dropdown ul > li > a:hover {
+    text-decoration: none;
+    color: #F0F0F0;
+}
+#nm_navigation .nav_content2 {
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.85);
+    top: 0;
+    width: 42%;
+    right: -42%;
+    height: 100%;
+    -webkit-box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);/*z-index: 9;*/
+}
+#nm_navigation .nav_content2 > li {
+    padding: 0 15px;
+    text-align: left;
+    position: relative;
+}
+#nm_navigation .nav_content2 > li.close_nav_content2 {
+    text-align: center;
+}
+#nm_navigation .nav_content2 > li.close_nav_content2:hover {
+    background: none;
+}
+#nm_navigation .nav_content2 > li.close_nav_content2 a {
+    width: 60px;
+    height: 60px;
+    border: none;
+    float: left;
+    margin-left: -25px;
+}
+#nm_navigation .nav_content2 > li.close_nav_content2 a:hover, #nm_navigation .nav_content2 > li.close_nav_content2 a:focus {
+    outline: 0;
+    color: #FFF;
+}
+#nm_navigation .nav_content2 > li:hover {
+    background: #F7921E;
+}
+#nm_navigation .nav_content2 > li:hover > .dropdown {
+    display: block;
+}
+#nm_navigation .nav_content2 > li > a {
+    display: block;
+    padding: 15px 0;
+    color: #F0F0F0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    font-weight: bold;
+}
+#nm_navigation .nav_content2 > li:last-child > a {
+    border-bottom: none;
+}
+#nm_navigation .nav_content2 > li > a:hover {
+    color: #231F20;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+#nm_navigation .nav_content2 .dropdown {
+    background: url(https://staticmain.narendramodi.in/images/inner_page_dropdown2_bg.jpg) repeat-y center #F7921E;
+    left: -170px;
+    -webkit-box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+    display: none;
+}
+#nm_navigation .nav_content2 .dropdown ul > li {
+    font-weight: normal;
+    text-align: right;
+}
+
+.dropdown_container {
+    z-index: 999;
+}
+
+/* ----- Layout ----- */
+
+main {
+    /*overflow: hidden !important;*/
+}
+header + .flexslider {
+    max-height: 595px;
+}
+/* ----- Other Page Furniture ----- */
+
+/*#nm_index_updates img { width: 100%; max-width: 100%; }
+#nm_index_updates .carousel-caption h4 { font-size: 30px; }
+#nm_index_updates .carousel-inner .active { width: 100%; overflow: hidden; }
+*/
+
+#background_carousel {
+    overflow: hidden
+}
+/*#background_carousel img {
+        width: 100%;
+        max-width: 100%;
+}*/
+#caption_carousel {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 22px 22px 60px;
+    top: 25%;
+    right: 0;
+    position: absolute;
+    height: auto;
+}
+#caption_carousel h3 {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: normal;
+}
+#caption_carousel .slick-prev, #caption_carousel .slick-next {
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 30px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: #4A4A4A;
+    color: transparent;
+    top: auto;
+    bottom: 25px;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+}
+#caption_carousel .slick-prev:before, #caption_carousel .slick-next:before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 20px;
+    line-height: 1;
+    color: #2E2E2E;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#caption_carousel .slick-prev {
+    left: auto;
+    right: 91px
+}
+#caption_carousel .slick-prev:before {
+    content: "\e079";
+}
+#caption_carousel .slick-next {
+    right: 60px;
+}
+#caption_carousel .slick-next:before {
+    content: "\e080";
+}
+#caption_carousel .slick-slide {
+    position: relative;
+    height: 100%;
+}
+#caption_carousel .slick-slide h3 + p {
+    relative: absolute;
+    width: 100%;
+    bottom: 15px;
+}
+p.carousel_more_link a {
+    color: #FFF;
+}
+p.carousel_more_link a:hover {
+    text-decoration: none;
+}
+p.carousel_more_link a i {
+    color: #F39400;
+}
+.submenu_content {
+    width: 100%;
+    height: 50px;
+    background: rgba(213, 213, 213, 0.75);
+    display: none;
+}
+.submenu_container {
+    display: block;
+}
+ul.nm_nav_submenu {
+    position: absolute;
+    left: 0;
+    top: 90px;
+    display: block;
+}
+ul.nm_nav_submenu > li {
+}
+ul.nm_nav_submenu > li > a {
+    display: block;
+    padding: 15px !important;
+    line-height: normal !important;
+}
+.popular_post_slider a {
+    text-decoration: none;
+}
+.popular_post_slider figure figcaption {
+    font-size: 17px;
+    padding-top: 15px;
+    color: #4A4A4A;
+}
+.listingImg {
+    overflow: hidden;
+}
+.listingImg > a.imgLiquid {
+    width: 100%;
+    height: 201px;
+    display: block;
+}
+/*******************
+ * PAGE COMPONENTS *
+ *******************/
+
+/* ----- Individial Pages ----- */
+
+/* MEDIA COVERAGE PAGE */
+#info_updates {
+    float: right;
+}
+#info_updates > li {
+    float: left;
+    margin-left: 10px;
+}
+#info_updates > li > a {
+    display: block;
+}
+#info_updates > li > a img {
+    width: 100%;
+    max-width: 70px;
+}
+/* LIFE BEYOND POLITICS PAGE */
+#nm_inner_banner {
+}
+#nm_inner_banner figure {
+    width: 100%;
+    position: relative;
+}
+#nm_inner_banner figure img {
+    width: 100%;
+    max-width: 100%;
+}
+#nm_inner_banner figure figcaption {
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#nm_inner_banner:hover figure figcaption {
+    opacity: 1;
+}
+#nm_inner_banner figure figcaption p {
+    color: #FFF;
+    font-size: 30px;
+}
+#nm_inner_banner + main ol.breadcrumb {
+    background: #FFF;
+}
+#beyond_politics_social > li {
+    float: left;
+}
+#beyond_politics_social > li > a {
+    color: #FFF;
+}
+#beyond_politics_social > li > a.icon_social_google > span > i.fa-circle {
+    color: #dd4b39 !important;
+}
+#beyond_politics_social > li > a.icon_social_tweet > span > i.fa-circle {
+    color: #00aced !important;
+}
+#beyond_politics_social > li > a.icon_social_fb > span > i.fa-circle {
+    color: #3b5998 !important;
+}
+#nm_main_content {
+}
+#nm_main_content h2 {
+    font-size: 16px;
+    font-weight: bold;
+    display: inline;
+}
+#nm_main_content h1 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #000;
+}
+
+#nm_main_content .btn {
+    border-radius: 0;
+    padding: 2px 25px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#nm_main_content .btn.btn-default {
+    background: #C6C7C9;
+    color: #000;
+}
+#nm_main_content .btn.btn-default:hover {
+    background: #2e3192;
+    border-color: #2e3192;
+}
+#nm_main_content .egreeting_step_content label {
+    padding-top: 8px;
+}
+#nm_main_content input {
+    border-radius: 0;
+}
+#nm_main_sidebar {
+}
+#nm_main_sidebar h3 {
+    font-size: 19px;
+    font-family: 'GillSansBold';
+    color: #000;
+    text-transform: capitalize;
+    padding-left: 0px;
+    line-height: 30px
+}
+#nm_main_sidebar img {
+    // width: 100%;
+    max-width: 100%;
+}
+.blog_info {
+    font-size: 14px;
+    padding-top: -10px;
+    color: #000;
+    line-height: 22px;/* position: relative;*/
+}
+#article_head a {
+    color: #434343;
+    line-height:25px;
+}
+.blog_info_span {
+    color: #2e3192;
+    font-weight: bold;
+    font-size: 16px;
+}
+.author_info {
+    color: #2e3192;
+    font-weight: bold;
+    font-size: 16px;
+}
+.author_info a {
+    color: #2e3192;
+}
+.blog_info_span a.margin {
+    color: #2e3192 !important;
+    margin-right: 70px;
+}
+.blog_tags {
+    padding: 15px 0;
+}
+.blog_tags a {
+    color: #FFF;
+}
+.blog_tags a:hover {
+    text-decoration: none;
+}
+.blog_tags span.label:hover {
+    background: #f6931e;
+}
+#article_head hr {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article_body {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 22px;
+}
+.article_body p {
+    font-size: 17px !important;
+    word-wrap: break-word;
+    color: #000;
+    padding: 0 0 15px;
+    line-height: 24px;
+}
+.article_body p img {
+    width: 100%!important;
+    height: auto;
+}
+.article_body p img.signature {
+    width: auto!important;
+    height: auto;
+}
+.article_body p iframe {
+    width: 100%!important
+}
+.article_body iframe {
+    width: 100%!important
+}
+.article_body p:first-child {
+    font-size: 17px !important;
+    line-height: normal;
+    color: #000;
+    padding-top: 7px;
+
+}
+
+/****08-07-2015******[vk]********/
+
+.article_body#main_article_content div {
+    font-size: 17px !important;
+    word-wrap: break-word;
+    color: #000;
+    /*padding: 0 0 15px;*/
+    line-height: 24px;
+}
+.article_body#main_article_content div img {
+    width: 100%!important;
+    height: auto;
+}
+.article_body#main_article_content div img.signature {
+    width: auto!important;
+    height: auto;
+}
+.article_body#main_article_content div iframe {
+    width: 100%!important
+}
+
+.article_body#main_article_content div:first-child {
+    font-size: 17px !important;
+    line-height: normal;
+    color: #000;
+    padding-top: 7px;
+}
+
+/**END**08-07-2015*****[vk]*********/
+
+
+.article_body figure {
+    line-height: 22px;
+    color: #4A4A4A;
+    padding-top: 30px;
+}
+.article_body figure img {
+    width: 100%;
+    max-width: 100%;
+}
+.article_body h3 {
+    font-weight: bold;
+    line-height: 24px;
+}
+.article_body figcaption .panel-footer {
+    background: #F5F5F5;
+}
+.article_body figcaption .panel-footer a {
+    color: #2e3192;
+}
+.article_body .panel-footer {
+    text-align: center;
+    background: #2e3192;
+}
+.article_body .panel-footer a {
+    color: #FFF;
+}
+.article_sidebar_text {
+    padding-top: 30px;
+    text-align: center;
+}
+.popular_vid figcaption {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.popular_vid a.btn {
+    border: none;
+}
+.social_share .social_links ul {
+    padding: 20px 0;
+}
+.social_share figure img {
+    padding-bottom: 16px;
+}
+.social_share .social_links ul li {
+    float: left;
+}
+.social_share .social_links ul li > a {
+    text-indent: -99999px;
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.social_share .social_links ul li.sharepic_fb > a {
+    background: url("https://staticmain.narendramodi.in/images/fb_icon_2.png") no-repeat center center;
+}
+.social_share .social_links ul li.sharepic_fb:hover > a {
+    background: url("https://staticmain.narendramodi.in/images/fb_icon.png") no-repeat center center;
+}
+.social_share .social_links ul li.sharepic_tweet > a {
+    background: url("https://staticmain.narendramodi.in/images/twitter_rightshare.png?v=2") no-repeat center center;
+}
+.social_share .social_links ul li.sharepic_tweet:hover > a {
+    background: url("https://staticmain.narendramodi.in/images/twitter_icon.png") no-repeat center center;
+}
+.sidebar_tab {
+}
+.sidebar_tab li {
+    border-radius: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sidebar_tab li a {
+    color: #FFF;
+    border-radius: 0;
+    background: #939498;
+    padding: 5px 15px;
+}
+.sidebar_tab li a:hover {
+    color: #FFF;
+    border-radius: 0;
+    background: #939498;
+    padding: 5px 15px;
+}
+.sidebar_tab.nav-pills > li.active > a, .sidebar_tab.nav-pills > li.active > a:hover, .sidebar_tab.nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #2e3192;
+    outline: 0;
+}
+.sidebar_tab + .tab-content ul > li {
+    padding: 15px 0;
+    border-bottom: 1px solid #CCC;
+}
+.sidebar_tab + .tab-content ul > li:last-child {
+    border-bottom: none;
+}
+.sidebar_tab + .tab-content ul > li p a {
+    color: #4A4A4A;
+}
+.sidebar_tab + .tab-content ul > li p a:hover {
+    color: #000;
+    text-decoration: none;
+}
+#sidebar_subscribe p {
+    padding: 10px 0;
+}
+#sidebar_subscribe .form-control, #sidebar_subscribe .btn {
+    border-radius: 0;
+}
+/* E-GREETINGS PAGE */
+.egreeting_steps {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #f6931e;
+    border-top: 1px solid #f6931e;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 99%;
+    margin-left: 5px;
+}
+.egreeting_steps p.step {
+    font-size: 18px;
+    background: #d0d1d2;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 12px auto;
+    padding: 0;
+}
+.egreeting_steps p.step a {
+    color: #3b3b36;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.egreeting_steps p.step span {
+    color: #3b3b36;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.egreeting_steps p.step.active, .egreeting_steps p.step a:hover {
+    text-decoration: none;
+    background: #2e3192;
+}
+.egreeting_steps p.step_define {
+    font-size: 14px !important;
+    color: #3B3B3B;
+}
+.egreeting_step_content {
+    margin-bottom: 0;
+}
+.egreeting_step_content label[for=occasion_select] span {
+    color: #FFF;
+}
+#egreeting_steps1 #egreeting_step1_content .radio {
+    margin: 0;
+    text-align: center;
+}
+#egreeting_step1_content .radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin: 0;
+    position: static;
+}
+#egreeting_step1_content .row .row, #egreeting_step2_content .row .row {
+    margin: 0 15px;
+}
+#egreeting_step2_content {
+    text-align: left;
+    font-size: 16px;
+    line-height: 22px;
+}
+#egreeting_step2_content .radio, #egreeting_step3_content .radio {
+    margin-bottom: 45px;
+    font-size: 16px;
+    line-height: 24px;
+}
+#egreeting_step4_content label {
+    font-size: 16px;
+}
+#final_step {
+    margin-top: 60px;
+}
+.styled_select {
+    background: url(https://staticmain.narendramodi.in/images/styled_select.jpg) no-repeat 96% 0 #D1D2D4;
+    height: 30px;
+    overflow: hidden;
+    width: 100%;
+}
+.styled_select select {
+    background: transparent;
+    border: none;
+    height: 30px;
+    width: 100%;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+.styled_select select option {
+    background: #212121;
+    color: #FFF;
+    border-bottom: 1px dotted #515151;
+    padding-left: 3px;
+    height: 30px;
+    border-shadow: none;
+}
+.styled_select select option:last-child {
+    border-bottom: none;
+}
+/* NEWS UPDATES PAGE */
+.news_updates_banner {
+}
+.news_updates_banner .panel-body {
+    padding: 0;
+}
+.news_updates_banner .panel-body figure {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden
+}
+
+
+
+
+.news_updates_banner .panel-body figure figcaption {
+    text-align: center;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 10px 95px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.25))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.25) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
+}
+.news_updates_banner .panel-footer {
+    text-align: center !important;
+    margin-top: -1px;
+}
+.news_updates_banner .panel-footer a {
+    color: #434343;
+    font-size: 25px;
+    display: inline-block;
+    margin: 30px;
+}
+.news_updates_banner .panel-footer a:hover {
+    text-decoration: none;
+    color: #000;
+}
+/* BIOGRAPHY PAGE */
+#menu {
+    width: 100%;
+    margin: 0 auto;
+}
+#menu .scrollmenu {
+    float: left;
+    width: 50px;
+    height: 25px;
+    padding: 2px;
+    text-align: center;
+    margin: 5px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menu .scrollmenu a {
+    color: #000;
+    letter-spacing: 0.5px;
+}
+#menu .scrollmenu a:hover {
+    text-decoration: none;
+}
+#menu:after {
+    clear: both;
+}
+#menu .scrollmenu.active_year, #menu .scrollmenu:hover {
+    background: #FB890A;
+    color: #fff;
+}
+.bio_white_wrap {
+    background: #fff;
+    padding: 20px 20px 30px 30px;
+    font-family: 'ufonts_com_gillsans';
+    color: #000;
+    /*min-height: 180px;*/
+}
+.bio_white_wrap h3 {
+    font-size: 27px;
+}
+.bio_white_wrap p {
+    font-size: 21px;
+}
+a.share_icon, div.timeline_element.blog_post a.share_icon {
+    background: url("https://staticmain.narendramodi.in/images/news-icon.png") no-repeat scroll right 1px;
+    float: right;
+    height: 23px;
+    padding-right: 30px;
+    font-size: 17px;
+    color: #000;
+    margin-top: 13px;
+}
+.boxsym1 {
+    bottom: 10px;
+    position: absolute;
+    right: 15px;
+    width: 100%;
+}
+.quote_yellow_wrap {
+    padding: 44px 30px 20px 70px;
+    background: url('https://staticmain.narendramodi.in/images/black_quote.png') 23px 45px no-repeat #2e3192;
+    margin-top: 6px;
+    font-size: 29px;
+    color: #000;
+}
+.author_name {
+    font-size: 19px;
+}
+.video_wrap {
+    position: relative;
+}
+.video_wrap a.share_icon {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.bio_img_wrap img {
+    width: 100%;
+}
+.column_left span.date-day {
+    position: absolute;
+    right: -67px;
+    top: 120px;
+    z-index: 999;
+    font-size: 15px;
+}
+.column_right span.date-day {
+    position: absolute;
+    left: -66px;
+    top: 121px;
+    z-index: 999;
+    font-size: 15px;
+}
+span.year_v1 {
+    background: #000000;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 50px;
+    padding: 12px;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    z-index: 9;
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 35px;
+}
+.column_left span.date-month {
+    background: #000000;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 50px;
+    padding: 12px;
+    position: absolute;
+    right: -83px;
+    text-align: center;
+    top: -25px;
+    width: 50px;
+    z-index: 999;
+}
+.column_right span.date-month {
+    background: #000000;
+    border-radius: 29px;
+    color: #FFFFFF;
+    font-size: 13px;
+    height: 50px;
+    padding: 12px;
+    position: absolute;
+    left: -83px;
+    text-align: center;
+    top: -45px;
+    width: 50px;
+    z-index: 999;
+}
+.pop_wrap {
+    width: 467px;
+}
+.bio_white_wrap p {
+    font-size: 14px;
+}
+#loadmore {
+    background: url('https://staticmain.narendramodi.in/images/load_more.png') no-repeat;
+    width: 42px;
+    height: 42px;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+/* E-BOOKS PAGE */
+
+.orange-head {
+    font-size: 19px;
+    text-align: left;
+    color: #2e3192;
+    font-weight: bold;
+}
+.book_top {
+    width: 100%;
+}
+.book_left {
+    width: 227px;
+    float: left;
+    margin-left: 30px;
+    -webkit-box-shadow: #666 5px 3px 10px;
+    -moz-box-shadow: #666 5px 3px 10px;
+    box-shadow: #666 5px 3px 10px;
+}
+.book_info {
+    width: 394px;
+    float: right;
+    text-align: left;
+}
+.book_txt {
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    padding: 10px 0;
+    letter-spacing: 0.5px;
+}
+.book_orange_strip {
+    width: 100%;
+    height: 21px;
+    background-color: #2e3192;
+}
+.new_book_ban img {
+    width: 100%;
+}
+.new_book_wrap {
+    margin: 48px auto 0;
+    width: 870px;
+    background: url(https://staticmain.narendramodi.in/images/book_line.png) center 90px no-repeat;
+}
+.new_book_filter {
+    margin: 25px 0;
+}
+.e_more_book {
+    border-top: 1px solid #2e3192;
+    border-bottom: 1px solid #2e3192;
+    margin-top: 20px;
+}
+.e_book_in {
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.books {
+    width: 100%;
+    padding-top: 40px;
+}
+.books ul {
+    list-style-type: none;
+    float: left;
+    margin-left: 25px;
+}
+.books ul li {
+    list-style-type: none;
+    float: left;
+    margin: 0px 17px 20px 0;
+    padding: 0 22px;
+    background: url(https://staticmain.narendramodi.in/images/new_book_shadow.png) no-repeat right center;
+}
+.new_book_orange_strip {
+    width: 100%;
+    height: 24px;
+    background-color: #2e3192;
+}
+.book_bigshadow {
+    background: url(https://staticmain.narendramodi.in/images/book_bigshadow.jpg) no-repeat top center;
+    height: 20px;
+}
+.final_book_last {
+    width: auto;
+    margin: 0 auto;
+    display: table;
+}
+.final_book_last ul {
+    list-style-type: none;
+    float: left;
+    margin-top: 100px;
+    margin-bottom:50px;
+}
+.final_book_last ul li {
+    float: left;
+    width: 27px;
+    height: 27px;
+    background-color: #d0d2d3;
+    color: #000;
+    margin: 0 5px;
+    text-align: center;
+    line-height: 27px;
+}
+.final_book_last ul li:hover, .final_book_last ul li.page_act {
+    float: left;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2e3192;
+    background-color: #20b7cd;
+}
+.final_book_last ul li:hover a, .final_book_last ul li.page_act a {
+    color: #FFFFFF;
+}
+.nav12 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    font-size: 14px;
+}
+.nav12 ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.nav12 ul li {
+    margin-left: 7px;
+    float: left;
+}
+.nav12 ul li a {
+    color: #000000;
+    background-color: #d1d2d4;
+    padding: 7px 26px 7px;
+    text-decoration: none !important;
+}
+.nav12 ul li a:hover, .nav12 ul li a.active12 {
+    color: #fff;
+    background-color: #f0981d;
+}
+.nav12 > ul > li > a:hover {
+    text-decoration: none !important;
+}
+.searchcenter1 {
+    margin: 29px auto;
+    width: 700px;
+}
+.searchcenter1book {
+    margin: 10px auto 0;
+    width: 99%;
+    max-width: 830px;
+}
+.nav12 ul li a.rightarrow {
+    background: url(https://staticmain.narendramodi.in/images/right_arrow.png) no-repeat transparent;
+    width: 15px;
+    height: 26px;
+    display: inline-block;
+    padding: 0;
+    margin: 3px 0 0 11px;
+}
+.namo_blog_sign {
+    background: url('https://staticmain.narendramodi.in/images/blog_sign.png')no-repeat;
+    height: 53px;
+    width: 79px;
+}
+.namo {
+    padding-bottom: 10px;
+}
+.index_search {
+    border-top: 2px solid #F4941C;
+    ;
+    border-bottom: 2px solid #F4941C;
+    margin: 15px 0;
+    padding: 20px 0;
+}
+input.keywords {
+    background-color: #d1d2d4;
+    border: 0;
+    padding: 6px 10px;
+    margin: 0 10px;
+    font-size: 13px;
+    color: #7b7b7b;
+    width: 200px;
+}
+.keywords_search {
+    float: left;
+    width: 200px;
+    margin-right: 30px;
+}
+.index_search .searchleft strong {
+    float: left;
+}
+.go_index {
+    background: url(https://staticmain.narendramodi.in/images/news-icon.png) 0 -57px no-repeat;
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin: 2px 30px 0 10px;
+}
+.go_index a {
+    color: #fff;
+    text-indent: -999px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.ebooks_select {
+    float: left;
+    width: 256px;
+    margin-left: 10px;
+    color: #000;
+}
+a.book_wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+a.book_wrap img {
+    width: 100%;
+    max-width: 190px;
+}
+.book_desc {
+    position: absolute;
+    background: url(https://staticmain.narendramodi.in/images/black70.png);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.book_desc h4 {
+    font-size: 17px;
+    margin: 24px 67px 3px 22px;
+    color:#fff;
+}
+.book_desc span {
+    font-size: 14px;
+    margin: 0 0 0 22px;
+    color: #F0981D;
+    display: inline-block;
+    background: url(https://staticmain.narendramodi.in/images/final_book_arrow.png) no-repeat scroll right center;
+    padding-right: 12px;
+}
+.searchleft {
+    float: left;
+    line-height: 1.9;
+}
+/*************
+ * OVERRIDES *
+ *************/
+
+.addYourComment h3 {
+    color: #2e3192;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.addYourComment h2.comments {
+    color: #2e3192!important;
+    font-size: 19px!important;
+    font-weight: bold!important;
+    margin-bottom: 15px!important;
+    display:block!important;
+}
+.titleBox > p {
+    text-transform: uppercase;
+    color: #a0a0a0;
+    font-size: 10px !important;
+}
+.titleBox > p img {
+    vertical-align: middle;
+    max-width: 28px;
+}
+.titleBox > p a:first-child {
+    padding-left: 15px;
+}
+/* ----- Bootstrap styles ----- */
+
+#nm_index_updates .carousel-caption {
+    position: absolute;
+    right: 0;
+    bottom: auto;
+    left: auto;
+    top: 25%;
+    z-index: 999;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    text-shadow: none;
+    background: rgba(0, 0, 0, 0.75);
+}
+#nm_index_updates .carousel-caption .btn {
+    text-shadow: none;
+}
+#nm_index_updates .carousel-control {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+    z-index: 99999;
+}
+#nm_index_updates .carousel-control.left {
+    background: none;
+    left: auto;
+    right: 25px;
+}
+#nm_index_updates .carousel-control.right {
+    right: 0;
+    left: auto;
+    background: none;
+}
+#nm_index_updates .carousel.carousel-fade .item {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+#nm_index_updates .carousel.carousel-fade .active.item {
+    opacity: 1;
+}
+#nm_index_updates .carousel.carousel-fade .active.left, #nm_index_updates .carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#nm_index_updates .carousel.carousel-fade .next, #nm_index_updates .carousel.carousel-fade .prev {
+    left: 0;
+    z-index: 1;
+}
+#nm_index_updates .carousel.carousel-fade .carousel-control {
+    z-index: 3;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+.myTab.nav-tabs > li {
+    float: left;
+    margin-bottom: 0;
+    background:#1fb7cd;
+}
+.myTab.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: none;
+    border-radius: 0;
+    color: #FFF;
+    font-size:18px;
+    font-family: 'ek_muktaregular';
+}
+.myTab.nav-tabs > li > a:hover {
+    border-color: none!important;
+    background-color:#1fb7cd!important;
+}
+
+
+.myTab.nav-tabs > li.active > a, .myTab.nav-tabs > li.active > a:hover, .myTab.nav-tabs > li.active > a:focus {
+    color: #FFF;
+    cursor: default;
+    background-color: #2e3192 !important;
+    border: none;
+    border-bottom-color: transparent;
+    font-family: 'ek_muktaregular';
+    font-size:18px;
+
+}
+
+.myTab.nav-tabs > li.active > a:after {
+    content: '';
+    position: absolute;
+    top: 96%;
+    left: 43%;
+    width: 0;
+    height: 0;
+    border-top: solid 8px #2e3192;
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+}
+/*.breadcrumb {
+    padding: 60px 0 15px;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.breadcrumb > li {
+    display: inline-block;
+    font-size: 12px;
+}
+.breadcrumb > li + li:before {
+    font-family: 'FontAwesome';
+    padding: 0 5px;
+    color: #ccc;
+    content: "\f0da";
+}
+.breadcrumb > .active {
+    color: #777;
+}*/
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus {
+    outline: 0;
+}
+/* ----- Plugins styles ----- */
+
+.jspVerticalBar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    background: none;
+}
+.jspTrack {
+    background: rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+.jspDrag {
+    background: rgba(0, 0, 0, 0.16);
+    position: relative;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+/* Arrows */
+.slick-prev, .slick-next {
+    position: absolute;
+    display: block;
+    height: 20px;
+    width: 20px;
+    line-height: 0;
+    font-size: 0;
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    top: 50%;
+    margin-top: -10px;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.slick-prev:focus, .slick-next:focus {
+    outline: none;
+}
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
+    opacity: 0.25;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: "FontAwesome";
+    font-size: 20px;
+    line-height: 1;
+    color: #4A4A4A;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {
+    left: -15px;
+}
+.slick-prev:before {
+    content: "\f053";
+}
+.slick-next {
+    left: auto;
+    right: -15px;
+}
+.slick-next:before {
+    content: "\f054";
+}
+.slick-slider {
+    margin-bottom: 30px;
+}
+/* Arrows */
+.popular_post_slider .slick-dots {
+    position: absolute;
+    bottom: -30px !important;
+    list-style: none;
+    display: block;
+    text-align: left !important;
+    padding: 0;
+    width: 100%;
+}
+.popular_post_slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.popular_post_slider .slick-dots li button {
+    border: 0;
+    background: transparent;
+    display: block;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    padding: 0 !important;
+    cursor: pointer;
+}
+.popular_post_slider .slick-dots li button:focus {
+    outline: none;
+}
+.popular_post_slider .slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "\2022";
+    width: 20px;
+    height: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 45px;
+    line-height: 0;
+    text-align: center;
+    color: black;
+    opacity: 0.25;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.popular_post_slider .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+    color: #F6841E;
+}
+.sidebar_carousel .slick-dots {
+    position: absolute;
+    bottom: -45px;
+    list-style: none;
+    display: block;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+.sidebar_carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    margin: 0 3px 0 0 !important;
+    padding: 0;
+    cursor: pointer;
+}
+.sidebar_carousel .slick-dots li button {
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    display: block;
+    height: 15px;
+    width: 15px;
+    outline: none;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
+    padding: 0 !important;
+    cursor: pointer;
+    content: "\2022";
+}
+.sidebar_carousel .slick-dots li.slick-active button:before {
+    opacity: 0.75;
+}
+/* Styling Pagination*/
+
+.owl-carousel.popular_post_slider {
+    margin-left: 0 !important;
+}
+.owl-theme .owl-controls {
+    margin-top: 10px;
+    text-align: left !important;
+}
+.owl-theme .owl-controls .owl-page {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);/*IE7 fix*/
+    opacity: 1;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: #d0d2d3;
+}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
+    filter: Alpha(Opacity=100);/*IE7 fix*/
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-page.active span {
+    background: #f6931e;
+}
+
+
+body .mc-cycle {
+    height:100%;
+    left:0;
+    overflow:hidden;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index: 0 !important;
+}
+
+
+/* ----- ns_styles2 styles ----- */
+.media_footer li a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 0;
+    border-right: 1px solid #BBB;
+    border-left: 1px solid #BBB;
+    border-collapse: collapse;
+}
+.media_footer li a:hover {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    background: none;
+    border-right: 1px solid #BBB;
+}
+.mouseleave > li {
+}
+.mouseleave > li > a {
+    position: relative !important;
+}
+.mouseleave > li > a:hover {
+    background: #F39400;
+}
+a.media_footer_tab {
+    text-align: center;
+}
+a.media_footer_tab img {
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    margin-left: -15px;
+    display: none;
+}
+a.media_footer_tab:hover img {
+    display: block;
+}
+.right_float {
+    margin-left: 15px;
+}
+img.event_vid {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    z-index: 99;
+    left: 42%;
+    top: 42%;
+    z-index: 1;
+}
+.eventgrid1 {
+    width: 690px;
+    height: 375px;
+}
+.eventgrid2 {
+    width: 218px;
+    height: 188px;
+}
+.eventgrid3 {
+
+    width: 217px!important;
+    height: 125px;
+}
+.eventgrid4 {
+    width: 457px;
+    height: 250px;
+}
+.event_thumbs {
+    margin-top: 30px;
+}
+.Event_list_img {
+    overflow: hidden;
+}
+.Event_list_img a.eventgrid1_a {
+    display: block;
+    width: 100%;
+    height: 187px;
+}
+.Event_list_verti .Event_list_img a.eventgrid1_b {
+    display: block;
+    width: 100%;
+    height: 186px;
+}
+/******************************************************************************** Rahul CSS Start*********************************************************/
+
+
+/*body {padding:0; margin:0; font-size: 16px; font-weight: bold; color:#000;}
+*/.socialBuzzWrap {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    display: block;
+}
+.socialBuzzMain {
+    max-width: 1155px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+/**start new***/
+.newContent {
+    float: left;
+    margin: 0 0 62px 0;
+    padding: 0 0 25px 0;
+    width: 100%;
+    background: #fff;
+}
+.newContent-1 {
+    float: left;
+    margin: 0 0 62px 0;
+    padding: 0 0 25px 0;
+    width: 105%;
+}
+.new-Socialmedia {
+    float: left;
+    margin: 0;
+    padding: 10px 0 0 25px;
+    ;
+    border-left: 1px solid #818181;
+}
+.newfb {
+    float: left;
+    margin: 0 7px 0 0;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat 0 0;
+    width: 38px;
+    height: 38px;
+}
+.newfb:hover {
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat 0px -38px;
+    width: 38px;
+    height: 38px;
+}
+.newtwitter {
+    float: left;
+    margin: 0 7px 0 0;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat -45px 0;
+    width: 38px;
+    height: 38px;
+}
+.newtwitter:hover {
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat -46px -38px;
+    width: 38px;
+    height: 38px;
+}
+.newmygov {
+    float: left;
+    margin: 0 7px 0 0;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat -92px 0;
+    width: 38px;
+    height: 38px;
+}
+.newmygov:hover {
+    background: url(https://staticmain.narendramodi.in/images/newSocialMedia.png) no-repeat -92px -38px;
+    width: 38px;
+    height: 38px;
+}
+/***start slider***/
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    *zoom: 1;
+    top: -16px;
+}
+.bx-wrapper img {
+    width: 100%;
+    display: block;
+}
+.bx-wrapper .bx-viewport {
+    -moz-box-shadow: 0 0 5px #ccc;
+}
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    display: none;
+    height: 0;
+}
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(https://staticmain.narendramodi.in/images/bx_loader.gif) center center no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #000;
+}
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(https://staticmain.narendramodi.in/images/left-arrow.png) no-repeat 0 0;
+}
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url(https://staticmain.narendramodi.in/images/right-arrow.png) no-repeat 0 0;
+}
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0;
+}
+.bx-wrapper .bx-next:hover {
+    background-position: 0 0;
+}
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 42px;
+    text-indent: -9999px;
+    z-index: 9999;
+}
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none;
+}
+.bx-wrapper .bx-controls-auto {
+    text-align: center;
+}
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(https://staticmain.narendramodi.in/images/controls.png) -86px -11px no-repeat;
+    margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-start:hover, .bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0;
+}
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(https://staticmain.narendramodi.in/images/controls.png) -86px -44px no-repeat;
+    margin: 0 3px;
+}
+.bx-wrapper .bx-controls-auto .bx-stop:hover, .bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%;
+}
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px;
+}
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666\9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%;
+}
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: block;
+    font-size: .85em;
+    padding: 10px;
+}
+/***end slider***/
+/**end new***/
+
+
+.new-bg_3nationtour {
+    background: url(https://staticmain.narendramodi.in/images/Bg_3nationtour.jpg) repeat-x 0 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.new-Title_3nationtour {
+    margin: 0 auto;
+    width: 44%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.new-Title_3nationtour h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+}
+.new-Title_3nationtour h2 span {
+    color: #818181;
+}
+.new-Title_3nationtour h2 b {
+    color: #5f0922
+}
+.title_china {
+    margin: 0 auto;
+    width: 44%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_china h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_china h2 span.hashTag {
+    color: #818181;
+}
+.title_china h2 span.in_china {
+    color: #818181;
+}
+.title_china h2 span.countryChina {
+    color: #eb2c15;
+}
+.title_china h2 b {
+    color: #5f0922
+}
+.title_mongoliya {
+    margin: 0 auto;
+    width: 48%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_mongoliya h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_mongoliya h2 span.hashTag {
+    color: #818181;
+}
+.title_mongoliya h2 span.in_mongoliya {
+    color: #053169;
+}
+.title_mongoliya h2 span.countrymongoliya {
+    color: #ae2025;
+}
+.title_mongoliya h2 b {
+    color: #5f0922;
+}
+.title_sa {
+    margin: 0 auto;
+    width: 54%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_sa h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.korea_color {
+    color: #bf1827;
+}
+.title_sa h2 span.hashTag {
+    color: #818181;
+}
+.title_sa h2 span.in_sa {
+    color: #818181;
+}
+.title_sa h2 span.countrysa {
+    color: #003775;
+}
+.title_sa h2 b {
+    color: #5f0922;
+}
+.newContent-text_3nationtour {
+    width: 100%;
+    margin: 0;
+    float: left;
+    padding: 0 10% 5% 10%;
+    text-align: center;
+    font-size: 16px;
+    color: #040923;
+    line-height: 23px;
+    word-spacing: 1px;
+}
+.newContent_text_3nationtourNew {
+    width: 100%;
+    margin: 0;
+    float: left;
+    padding: 0 0% 5% 0%;
+    text-align: center;
+    font-size: 17px;
+    color: #040923;
+    line-height: 23px;
+    word-spacing: 1px;
+}
+.new-Agneda_3nationtour {
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #bfbfbf;
+    width: 65%;
+    clear: both;
+    overflow: hidden;
+    text-align: center;
+}
+
+.new-Agneda_3nationtour{ width: 50%!important;}
+.Agneda-box_3nationtour {
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.Agneda-box_3nationtour.width25 {
+    width: 25%!important;
+}
+
+.Agneda-box_3nationtour.nmt {
+    width: 33%!important;
+
+}
+
+
+.Agneda-box_3nationtour .social_icon_bangla_home {
+    background-color: #063d28;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_bangla_home:hover {
+    background-color: #2e3192;
+}
+
+
+.Agneda-box_3nationtour .social_icon_mex_home {
+    background-color: #006847;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_mex_home:hover {
+    background-color: #2e3192;
+}
+
+
+
+
+.Agneda-box_3nationtour .social_icon_afgan_home {
+    background-color: #bf0000;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_afgan_home:hover {
+    background-color: #2e3192;
+}
+
+
+.Agneda-box_3nationtour .social_icon_swizz_home {
+    background-color: #d52b1e;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_swizz_home:hover {
+    background-color: #2e3192;
+}
+
+
+.Agneda-box_3nationtour .social_icon_qatar_home {
+    background-color: #8d1b3d;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_qatar_home:hover {
+    background-color: #2e3192;
+}
+
+
+ 
+
+
+.Agneda-box_3nationtour .social_icon_bangla_home img {
+    /* margin-top: 20px;*/
+}
+
+.Agneda-box_3nationtour .social_icon_china_home {
+    background-color: #a1230e;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_china_home:hover {
+    background-color: #2e3192;
+}
+.Agneda-box_3nationtour .social_icon_china_home img {
+
+}
+.Agneda-box_3nationtour .social_icon_mongoliya_home {
+    background-color: #aa1d23;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_mongoliya_home:hover {
+    background-color: #2e3192;
+}
+.Agneda-box_3nationtour .social_icon_mongoliya_home img {
+
+}
+.Agneda-box_3nationtour .social_icon_south-koria_home {
+    background-color: #00346d;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_south-koria_home:hover {
+    background-color: #2e3192;
+}
+.Agneda-box_3nationtour .social_icon_south-koria_home img {
+
+}
+.Agneda-box_3nationtour .img-box1 {
+    margin: 0 auto 5px auto;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat 0 -173px;
+    width: 75px;
+    height: 75px;
+}
+.Agneda-box_3nationtour:hover .img-box1 {
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat 0 -90px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.Agneda-box_3nationtour .img-box3 {
+    margin: 0 auto 5px auto;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat -391px -173px;
+    width: 75px;
+    height: 75px;
+}
+.Agneda-box_3nationtour:hover .img-box3 {
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat -391px -90px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.Agneda-box_3nationtour .img-box5 {
+    margin: 0 auto 5px auto;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat -776px -173px;
+    width: 75px;
+    height: 75px;
+}
+.Agneda-box_3nationtour:hover .img-box5 {
+    background: url(https://staticmain.narendramodi.in/images/newicons.png) no-repeat -776px -90px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.new-Agneda_3nationtour a {
+    color: #000000;
+    font-weight: bold;
+}
+.Agneda-box_3nationtour span {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    color: #000000;
+    padding-top:18px;
+}
+.Agneda-box_3nationtour span.icontxt {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 18px;
+    color: #000000;
+    padding-top: 10px;
+}
+.Agneda-box_3nationtour span a {
+    color: #1c3cba;
+    text-decoration: none;
+    font-weight: bold;
+}
+.bxslider_3nationtour {
+    position: relative;
+    width: 100%;
+    height: 471px !important;
+}
+.post-block_3nationtour {
+    float: left;
+    margin: 0 27px 20px 0;
+    width: 240px;
+    height: 438px;
+    padding: 0 17px;
+    background: url(https://staticmain.narendramodi.in/images/blog-bg.png) no-repeat 0 0;
+    position: relative;
+}
+
+.mr-0 {
+    margin-right: 0!important;
+}
+.logo-box_3nationtour {
+    float: left;
+    margin: 0;
+    padding: 16px 0;
+    width: 207px;
+    border-bottom: 1px solid #d60707;
+    text-align: center;
+    height: 87px;
+    margin-bottom: 10px;
+}
+.logo-box_3nationtour img {
+    max-width: 100%;
+}
+.logo-box_3nationtour h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.post-block_3nationtour span {
+    float: left;
+    margin: 0;
+    padding: 10px 0 11px 0;
+    color: #000000;
+    width: 100%;
+    font-size: 15px;
+}
+.post-block_3nationtour h3 {
+    padding: 9px 20px 18px 0;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    line-height: 22px;
+
+    float: left;
+    margin: 0;
+}
+.post-block_3nationtour p {
+    float: left;
+    margin: 0;
+    padding: 0;
+
+    font-size: 15px;
+    color: #000000;
+    line-height: 20px;
+    letter-spacing: .5px;
+    padding-right:20px;
+}
+.post-block_3nationtour a {
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    background: url(https://staticmain.narendramodi.in/images/red-bullete.png) no-repeat right center;
+    color: #000000;
+    text-decoration: none;
+    padding: 0 10px 0 0;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+}
+.new-bg_3nationtour_pg {
+    background: url("https://staticmain.narendramodi.in/images/Bg-new.jpg") repeat-x scroll 0 0 #5F0922;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.media-menu_3nationtour_pg {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+    margin: 0 6px 25px;
+    padding: 0;
+}
+.media-menu_3nationtour_pg ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.media-menu_3nationtour_pg ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: url(https://staticmain.narendramodi.in/images/li-divider.png) no-repeat right center #fff;
+    list-style: none;
+}
+.media-menu_3nationtour_pg ul li a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.inaus {
+    color: #5F0922;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    padding: 2px 50px 0 67px;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px 2px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.inaus b {
+    color: #818181 !important;
+    font-weight: normal !important;
+}
+.media-menu_3nationtour_pg ul li a.inaus span {
+    color: #2e3192;
+}
+.media-menu_3nationtour_pg ul li a:hover {
+    color: #fff;
+}
+.media-menu_3nationtour_pg ul li a.inaus:hover, .media-menu_3nationtour_pg ul li a.inaus.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px -40px #5f0922;
+    color: #fff;
+}
+
+.media-menu_3nationtour_pg ul li a {
+    padding: 2px 69px 0 85px;
+}
+
+.media-menu_3nationtour_pg ul li a.socialbuzz {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -79px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.socialbuzz:hover, .media-menu_3nationtour_pg ul li a.socialbuzz.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -120px #5f0922;
+    color: #fff;
+}
+.media-menu_3nationtour_pg ul li a.agenda {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -437px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.agenda:hover, .media-menu_3nationtour_pg ul li a.agenda.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -480px #5f0922;
+    color: #fff;
+}
+.media-menu_3nationtour_pg ul li a.updates {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -427px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.updates:hover, .media-menu_3nationtour_pg ul li a.updates.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -471px #15f0922;
+    color: #fff;
+}
+.media-menu_3nationtour_pg ul li a.mediaCoverage {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -260px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.mediaCoverage:hover, .media-menu_3nationtour_pg ul li a.mediaCoverage.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 16px -302px #5f0922;
+    color: #fff;
+}
+
+
+.media-menu_3nationtour_pg ul li a.ebook {
+    color: #000;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/ebgr.png) no-repeat 39px 9px;
+    height: 45px;
+}
+.media-menu_3nationtour_pg ul li a.ebook:hover, .media-menu_3nationtour_pg ul li a.ebook.active {
+    background: url(https://staticmain.narendramodi.in/images/iconSmallEbookHover.png) no-repeat 39px 9px #5f0922;
+    color: #fff;
+}
+
+.new-bg2 {
+    background: url(https://staticmain.narendramodi.in/images/Bg_3nationtour.jpg) repeat-x 0 0 #030629;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.international_bg {
+    background: url(https://staticmain.narendramodi.in/images/international-bg.jpg) no-repeat scroll center top / cover #040106;
+}
+.internationalmainhtml {
+    text-align: left !important;
+}
+.internationalmainhtml h3 {
+    font-weight: bold;
+    font-size: 24px !important;
+    font-family: Tahoma, Arial, Calibri;
+    text-align: center !important;
+    line-height: 40px;
+}
+.internationalmainhtml h4 {
+    font-weight: bold;
+    font-size: 15px !important;
+    font-family: Tahoma, Arial, Calibri;
+    color: #000000;
+    margin-bottom: 25px;
+    text-align: center !important;
+}
+.internationalmainhtml p {
+    border-top: 1px solid #9c9c9c;
+    padding-top: 15px !important;
+}
+.international_Container {
+    width: 1060px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.international_caption {
+    width: 1060px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    padding: 20px;
+    background-color: #343b50;
+    margin-top: -4px;
+}
+.international_caption h1 {
+    font-weight: bold;
+}
+.international_3countries_container {
+    width: 1060px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    float: left;
+}
+.international_3countries_container_img {
+    width: 330px;
+    border-right: 1px solid #9c9c9c;
+    text-align: center;
+    float: left;
+    margin-top: 36px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+.international_3countries_container_text {
+    width: 730px;
+    padding: 42px 34px;
+    float: left;
+    text-align: left;
+    color: #000000;
+    font-size: 18px;
+}
+.international_3countries_container_text h1 {
+    font-size: 31px;
+    font-weight: bold;
+}
+.international_3countries_container_text b {
+    font-weight: bold;
+    line-height: 23px;
+}
+.international_3countries_container_text p {
+    line-height: 22px;
+}
+.btn22 {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.btn22 a {
+    color: #ffffff !important;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: .7px;
+}
+.a_color {
+    color: #e7891d;
+}
+ul#grid-content2 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+}
+ul#grid-content2 li {
+    max-width: 246px;
+    width: 100%;
+    height: auto;
+    /* margin: 0 9px !important;*/
+    padding: 0 !important;
+    list-style: none;
+    margin-bottom:0px;
+    float: left;
+    margin-right: 30px;
+}
+ul#grid-content2 li div.box_socialbuzz {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea {
+    width: 246px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea.fb {
+    width: 246px;
+    height: 35px;
+    background: url(https://staticmain.narendramodi.in/images/fbHead2.png) no-repeat 0 0;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea.tweet {
+    width: 100%;
+    height: 35px;
+    /*background: url(../images/tweetHead.png) no-repeat 0 0;*/
+    background-color: #00aaf3;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea.mygov {
+    width: 246px;
+    height: 35px;
+    background: url(https://staticmain.narendramodi.in/images/mygovHead.png) no-repeat 0 0;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea .socialLogo {
+    width: auto;
+    height: 28px;
+    margin: 7px 0 0 15px;
+    padding: 0;
+    float: left;
+}
+ul#grid-content2 li div.box_socialbuzz .headArea .date {
+    width: auto;
+    height: 35px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: right;
+    font: normal 14px/35px 'GillSans';
+    color: #bfbfbf;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea {
+    height: auto;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    float: left;
+    font: normal 16px/21px 'GillSans';
+    color: #000;
+    text-align: left;
+    background: #FFF;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .postImg {
+    width: 206px;
+    height: auto;
+    padding: 0;
+    margin: 5px 0;
+    float: left;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea p {
+    width: 206px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea h5 {
+    width: 206px;
+    height: auto;
+    padding: 0;
+    margin: 15px 0 10px;
+    float: left;
+    font: bold 16px/21px 'GillsansBold';
+}
+ul#grid-content2 li div.box_socialbuzz .textArea a {
+    color: #000;
+    text-decoration: none;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea a:hover {
+    color: #000;
+    text-decoration: none;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost {
+    width: 90px;
+    height: 45px;
+    padding: 0;
+    margin: 10px 0 0;
+    float: right;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost p {
+    width: 90px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    font: normal 14px/15px 'GillSans';
+    text-align: right;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social {
+    width: 90px;
+    height: 19px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a {
+    width: 19px;
+    height: 19px;
+    display: block;
+    padding: 0;
+    margin: 0 0 0 5px;
+    float: right;
+    background: url(https://staticmain.narendramodi.in/images/ausSocialSprite.png) no-repeat;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.twit {
+    background-position: 0 0;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.twit:hover {
+    background-position: 0 -19px;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.fb {
+    background-position: 0 -38px;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.fb:hover {
+    background-position: 0 -57px;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.gplus {
+    background-position: 0 -76px;
+}
+ul#grid-content2 li div.box_socialbuzz .textArea .sharePost .social a.gplus:hover {
+    background-position: 0 -95px;
+}
+ul#grid-content2 li div.box_socialbuzz .btm {
+    width: 100%;
+    height: 40px;
+    padding: 40px;
+    margin: 0;
+    float: left;
+    /*background: url(../images/whiteBgBtm.png) no-repeat;*/
+    position: relative;
+    /*background-position: right -8px;*/
+    margin-left: -71px;
+    margin-top: -69px;
+}
+ul#grid-content2 li div.box_socialbuzz .btm .profilePhoto {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 20px;
+    /*top: -30px;*/
+}
+ul#grid-content2 li div.box_socialbuzz .btm .profilePhoto img {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 2px #cecece solid;
+    margin-left: 33px;
+    margin-top: -10px;
+}
+.socialbuzz_social_icon {
+    border-bottom: 2px solid #a5a5a5;
+    height: auto;
+    /* max-width: 974px;*/
+    width: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+.socialbuzz_social_icon_man_bat {
+    /*border-bottom: 2px solid #a5a5a5;*/
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+.manliBatsocialMain{
+    border-bottom: 2px solid #a5a5a5;
+    width:100%;
+    float:left;
+    padding-bottom: 20px;
+    margin-bottom: 25px;	
+}
+
+
+.socialbuzz_social_icon_img {
+    margin-left: 15px;
+    float: left
+}
+.socialbuzz_social_icon_text {
+    margin-top: 5px;
+    float: left;
+    padding-left: 5px;
+}
+.socialbuzz_social_icon1 {
+    float: left
+}
+.socialbuzz_social_icon2 {
+    float: right
+}
+ul#grid-content22 {
+    width: 100%!important;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: block;
+    color: #ffffff !important;
+
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-count: 3;
+    -moz-column-gap: 11px;
+    -webkit-column-gap: 11px;
+    column-gap: 11px;
+    -webkit-column-fill: auto;
+    column-fill: auto;
+    float: left
+}
+ul#grid-content22 li {
+    width: 363px!important;
+    padding: 0 !important;
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 18px;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 250px;
+    float: left;
+}
+ul#grid-content22 li div.box_socialbuzz {
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea {
+    width: 300px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea.fb {
+    width: 300px;
+    height: 35px;
+    background: url(https://staticmain.narendramodi.in/images/fbHead2.png) no-repeat 0 0;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea.tweet {
+    width: 300px;
+    height: 35px;
+    background: url(https://staticmain.narendramodi.in/images/tweetHead.png) no-repeat 0 0;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea.mygov {
+    width: 300px;
+    height: 35px;
+    background: url(https://staticmain.narendramodi.in/images/mygovHead.png) no-repeat 0 0;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea .socialLogo {
+    width: auto;
+    height: 28px;
+    margin: 7px 0 0 15px;
+    padding: 0;
+    float: left;
+}
+ul#grid-content22 li div.box_socialbuzz .headArea .date {
+    width: auto;
+    height: 35px;
+    margin: 0 10px 0 0;
+    padding: 0;
+    float: right;
+    font: normal 14px/35px 'GillSans';
+    color: #bfbfbf;
+}
+.fb_back {
+    background: url(https://staticmain.narendramodi.in/images/fb-bg.png) no-repeat 15px 95% #2F4994;
+}
+.tw_back {
+    background: url(https://staticmain.narendramodi.in/images/twitter-bg.png) no-repeat 15px 95% #28BAEC;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea {
+    height: auto;
+    padding: 20px 20px 0 20px;
+    margin: 0;
+    float: left;
+    font: normal 16px/21px 'GillSans';
+    text-align: left;
+    HEIGHT: 222PX;
+    position: relative;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .postImg {
+    width: 256px;
+    height: auto;
+    padding: 0;
+    margin: 5px 0;
+    float: left;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea p {
+    width: 256px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    float: left;
+    padding-left: 61px;
+    color: white;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea h5 {
+    width: 256px;
+    height: auto;
+    padding: 0;
+    margin: 0px 0 10px;
+    padding-left: 61px;
+    float: left;
+    font-size: 23px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea a {
+    color: #000;
+    text-decoration: none;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea a:hover {
+    color: #000;
+    text-decoration: none;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost {
+    width: 128px;
+    height: 45px;
+    padding: 0;
+    margin: 10px 0 0;
+    float: right;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost p {
+    width: 90px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    font: normal 14px/15px 'GillSans';
+    text-align: right;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social {
+    width: 128px;
+    height: 19px;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a {
+    width: 19px;
+    height: 19px;
+    display: block;
+    padding: 0;
+    margin: 0 0 0 5px;
+    float: right;
+    background: url(https://staticmain.narendramodi.in/images/sm-icon.png) no-repeat;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.twit {
+    background-position: 0 0;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.twit:hover {
+    background-position: 0 -30px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.fb {
+    background-position: -25px 0px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.fb:hover {
+    background-position: -26px -30px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.gplus {
+    background-position: -49px 0px;
+}
+ul#grid-content22 li div.box_socialbuzz .textArea .sharePost .social a.gplus:hover {
+    background-position: -49px -30px;
+}
+ul#grid-content22 li div.box_socialbuzz .btm {
+    width: 206px;
+    height: 40px;
+    margin: 0;
+    position: relative;
+}
+ul#grid-content22 li div.box_socialbuzz .btm .profilePhoto {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 13px;
+    top: 20px;
+}
+ul#grid-content22 li div.box_socialbuzz .btm .profilePhoto img {
+    width: 60px;
+    height: 60px;
+}
+.slider_readMore {
+    padding-top: 10px !important;
+    background: url(https://staticmain.narendramodi.in/images/red-bullete.png) no-repeat 76px 13px
+}
+.slider_readMore a {
+    color: white;
+}
+.slider_readMore_button {
+    color: white;
+}
+.slider_readMore_button:hover {
+    color: #fff;
+    text-decoration: none
+}
+#myCarousel1 .carousel-inner .item a.banner_img img {
+    width: 100%;
+}
+.twitter_div {
+    font-family: "gillsansmt";
+    font-size: 16px;
+    color: #000;
+    background-color: #FFF;
+    margin: 10px 0px;
+}
+.twitter_div p {
+    margin: 0;
+    padding: 0;
+    padding: 20px 50px 20px 20px;
+    font-weight: bold;
+}
+.twtimg {
+    float: right;
+    margin: 16px;
+    padding: 0;
+}
+/******************************************************************************** Rahul CSS End*********************************************************/
+.loading {
+    background-image: url(https://staticmain.narendramodi.in/images/loader.GIF);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: right;
+    margin-top: 6px;
+    display: none
+}
+.error-summary {
+    color: #a94442;
+    background-color: #f2dede;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+}
+
+.bio_img_wrap {
+    max-width: 100%;
+    height: 295px;
+}
+.commonSlideWrapper {
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    min-height: 260px;
+    bottom: -300px;
+}
+.media_footerHome {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 99;
+}
+.media_footerHome ul {
+    padding: 0px;
+    margin: 0px;
+}
+.media_footerHome li {
+    /*float: left;
+    list-style: none;
+    background: none repeat scroll 0 0 #cfcfcf;
+    width: 16.66%;
+    text-align: center;*/
+}
+.media_footerHome li a {
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 8px 0;
+    border-right: 1px solid #bbb;
+}
+.media_footerHome li:last-child {
+    margin-right: 0;
+}
+.media_footerHome li a:hover {
+    background: #2e3192;
+    color: #fff;
+}
+.media_footerHome li a.active_foot {
+    background: #2e3192;
+    color: #fff;
+}
+@media only screen and (max-width: 1024px) {
+    .fmedia_wrap {
+        display: none!important;
+    }
+    /*.media_footerHome {display:none!important;} .media_footerHome li {border:1px solid red;}*/
+    .media_footerHome li {
+        width: 20.3%;
+    }
+    .media_footerHome li a {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+    .media_footerHome li:last-child {
+        margin-right: 0px;
+        width: 18%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .fmedia_wrap {
+        display: none!important;
+    }
+    /* .media_footerHome {display:none!important;} .media_footerHome li {border:1px solid red;}*/
+    .media_footerHome li a {
+        height: 58px !important;
+    }
+    .media_footerHome li a {
+        font-size: 13px !important;
+    }
+}
+@media only screen and (max-width:480px) and (max-width: 640px) {
+    .media_footerHome li a {
+        height: 40px !important;
+    }
+    .media_footer ul.foot_btns li a {
+        padding: 14px 0px;
+    }
+    .media_footerHome li {
+        margin-bottom: 2px !important;
+        width: 50% !important;
+    }
+    .fmedia_wrap {
+        display: none!important;
+    }
+    /* .media_footerHome {display:none!important;} .media_footerHome li {border:1px solid red;}*/
+}
+@media only screen and (width: 640px) {
+    .media_footerHome li {
+        width: 106px!important
+    }
+    .media_footerHome li a {
+        font-size: 16px!important;
+        height: 34px;
+    }
+}
+@media only screen and (width: 768px) {
+    .media_footerHome li {
+        width: 128px!important
+    }
+    .media_footerHome li a {
+        font-size: 16px!important;
+        height: 34px;
+    }
+}
+.canada-bg {
+    background: url(https://staticmain.narendramodi.in/images/ModiinCanada-homebg.jpg) repeat-x #6a0000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.france-bg {
+    background: url(https://staticmain.narendramodi.in/images/france-bg.jpg) repeat-x #000f4d;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.germany-bg {
+    background: url(https://staticmain.narendramodi.in/images/germany-bg.jpg) repeat-x #6a0000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.china-bg {
+    background: url(https://staticmain.narendramodi.in/images/china_bg.jpg) #a1230e;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-size:cover !important;
+}
+
+.bangla-bg {
+    background: url(https://staticmain.narendramodi.in/images/flag_bangladesh.jpg) #043120;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:cover;
+    min-height:700px;
+}
+
+.arabia-bg {
+    background: url(https://staticmain.narendramodi.in/images/saudi-arabia.png) #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+
+.afghanistan-bg {
+    background: url(https://staticmain.narendramodi.in/images/afganBg.jpg) #009900;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+.qatar-bg {
+    background: url(https://staticmain.narendramodi.in/images/qatarBg.jpg) #8D1B3D;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+
+.switzerland-bg {
+    background: url(https://staticmain.narendramodi.in/images/swizzBg.jpg) #D52B1E;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+     /*background-size:cover;*/
+}
+
+
+.mexico-bg {
+    background: url(https://staticmain.narendramodi.in/images/mexicoBg.jpg) #006847;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+
+.south-bg {
+    background: url(https://staticmain.narendramodi.in/images/sabg1.jpg?v=2) #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+
+
+.iran-bg {
+    background: url(https://staticmain.narendramodi.in/images/iranBg2.jpg) #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+
+    /*background-size:cover !important;*/
+    min-height:700px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    /*background-size:cover;*/
+}
+
+
+
+
+.mngl-bg {
+    background: url(https://staticmain.narendramodi.in/images/mangolia_bg.jpg) #5b0d05;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-size: cover
+}
+.sa-bg {
+    background: url(https://staticmain.narendramodi.in/images/southkorea_bg.jpg) #a5a39c;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-size: cover
+}
+.canada-bg {
+    background: url(https://staticmain.narendramodi.in/images/ModiinCanada-homebg.jpg) repeat-x #6a0000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.button_postcomment {
+    background: orange;
+    color: #000;
+    padding: 3px;
+    border: 0px;
+}
+.twitter_row {
+    float: left;
+    width: 100%;
+    padding: 2px 0 5px 0;
+    color: white
+}
+.tweet_div h1 {
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.postDivTwit {
+    float: left;
+}
+.counterTweet {
+    width: 40px;
+    text-indent: 5;
+    border: 0px;
+    background-color: #F6F6F6;
+    color: #000;
+}
+.characterCountDiv {
+    float: left;
+    margin-left: 35%;
+}
+.tweet_div {
+    float: left;
+    max-width: 974px;
+    width: 100%;
+    padding: 2px 0 15px 0px;
+    border-bottom: 2px solid #a5a5a5;
+    margin-bottom: 30px;
+}
+.textareaTwetPost {
+    width: 85%;
+    height: 100px;
+    color: #000;
+}
+.article p {
+    padding: 0 0 15px !important;
+}
+.article_body p img#sig_img {
+    width: 99px;
+    max-width: 99px;
+    height: 38px;
+}
+.radio + .radio, .checkbox + .checkbox {
+    margin-top: 10px!important;
+}
+.radio, .checkbox {
+    position: relative;
+    display: block;
+    margin-top: 10px!important;
+    margin-bottom: 10px;
+}
+/*------------ Rahul -------------*/
+
+.article_body table {
+    font-family: 'gillsansmt';
+    /*width: 100%!important;*/
+}
+.fixedTymline {
+    position: fixed;
+    top: 0;
+    background: #e6e7e9!important;
+    z-index: 999999999999999999;
+    max-width: 1170px;
+    width: 100%;
+    border-bottom: #2e3192 solid 2px;
+    -webkit-box-shadow: 0 8px 6px -6px #b0b0b0;
+    -moz-box-shadow: 0 8px 6px -6px #b0b0b0;
+    box-shadow: 0 8px 6px -6px #b0b0b0;
+}
+/* I wanted to center my loader */
+#cycle-loader {
+    height: 32px;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    z-index: 999;
+}
+/*I want to avoid jumpiness as the JS loads, so I initially hide my cycle*/
+#maximage {
+    display: none;/* Only use this if you fade it in again after the images load */
+    position: fixed !important;
+}
+/*Set my gradient above all images*/
+.gradient {
+    left: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+/*Set my logo in bottom left*/
+#logo {
+    bottom: 30px;
+    height: auto;
+    left: 30px;
+    position: absolute;
+    width: 34%;
+    z-index: 1000;
+}
+#logo img {
+    width: 100%;
+}
+#arrow_left {
+    line-height: 0;
+    cursor: pointer;
+    background: #4A4A4A;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+    font-family: 'Glyphicons Halflings';
+    font-size: 20px;
+    line-height: 1;
+    color: #2E2E2E;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 5px 6px;
+}
+.nrext_prev {
+    width: auto;
+    position: absolute;
+    right: 40px;
+    bottom: 50%;
+    z-index: 9;
+}
+#arrow_right {
+    line-height: 0;
+    cursor: pointer;
+    background: #4A4A4A;
+    margin-top: -10px;
+    border: none;
+    outline: none;
+    font-family: 'Glyphicons Halflings';
+    font-size: 20px;
+    line-height: 1;
+    color: #2E2E2E;
+    opacity: 0.85;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 5px 6px;
+}
+#arrow_left:after {
+    content: "\e079";
+}
+#arrow_right:after {
+    content: "\e080";
+}
+#arrow_left:hover, #arrow_right:hover {
+}
+#arrow_left:active, #arrow_right:active {
+}
+.in-slide-content {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 22px 22px 60px;
+    bottom: 45%;
+    right: 0;
+    position: absolute;
+    height: auto;
+    z-index: 9999;
+    min-height:191px;
+}
+.in-slide-content h3 {
+    font-size: 25px;
+    color: #FFF;
+    font-weight: normal;
+}
+
+.in-slide-content h2{
+    font-size: 25px;
+    color: #FFF;
+    font-weight: normal;
+}
+
+/*.in-slide-content { 
+                                color:#fff;
+                                float:right;
+                                font-family:'Helvetica Neue', helvetica;
+                                font-size:30px;
+                                font-weight:bold;
+                                right:0;
+                                margin:40px;
+                                padding:20px;
+                                position:absolute;
+                                top:0;
+                                width:700px;
+                                z-index:9999; 
+                                -webkit-font-smoothing:antialiased;
+                        }*/
+.light-text {
+    color: #ddd;
+    text-shadow: 0 1px 0 #666;
+}
+.smaller-text {
+    font-size: 30px;
+}
+.youtube-video, video {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+
+.updateImg img{
+    height:135px;	
+}
+.share_wa {
+    background: url(https://staticmain.narendramodi.in/images/news-icon.png) no-repeat scroll -2px -224px transparent;
+    height: 25px;
+    float: left;
+    padding-right: 26px;
+    display:none;   
+}
+
+
+
+.siteMapMain{
+    float:left;
+    width:100%;
+}
+
+
+.siteMapMain h3{
+    font-family: 'GillSans';
+    background-color:#f7921e;
+    padding:10px;
+    color:#333;
+    font-size:16px;
+}
+
+.sitemapContent{
+    padding:10px 0px;
+    background:#fff;
+    margin-bottom:15px;
+    float:left;
+    padding-left:8px;
+}
+
+.sitemapRow{
+    margin-bottom:20px;
+    float:left;
+    width:100%;
+}
+
+ul.sitemapLink{
+    margin:0px;
+    padding:0px;
+    float:left;
+    width:100%;	
+}
+
+ul.sitemapLink li{
+    font-family: 'GillSans';
+    color: #333;
+    font-size: 15px;
+    padding-left: 0px;
+    list-style: circle;
+    margin-left: 15px;
+    padding-bottom: 5px;
+    line-height: 18px;
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    border-bottom: #e6e7e9 solid 1px;
+    min-height: 44px;
+    margin-top: 7px;
+}
+
+ul.sitemapLink li a{
+    color:#333;
+}
+
+ul.sitemapLink li a:hover{
+    color:#f7921e;
+}
+
+
+
+
+
+
+/*html
+{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}*/
+
+
+.title_banglsdesh {
+    margin: 0 auto;
+    width: 51%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_banglsdesh h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_banglsdesh h2 span.hashTag {
+    color: #818181;
+}
+.title_banglsdesh h2 span.in_bangla {
+    color: #818181;
+}
+.title_banglsdesh h2 span.countrybangla {
+    color: #024c33;
+}
+
+.title_banglsdesh h2 span.countryswizz {
+    color: #d52b1e;
+}
+
+
+.title_banglsdesh h2 span.countrymexico {
+    color: #006847;
+}
+
+
+.title_banglsdesh h2 span.countryafganistan {
+    color: #bf0000;
+}
+
+.title_banglsdesh h2 span.countryqatar {
+    color: #8d1b3d;
+}
+
+
+.title_banglsdesh h2 b {
+    color: #5f0922
+}
+.policy_container { width:97%; margin:0 auto;
+}
+
+
+
+
+
+/***********************************************************
+******************** 04-07-2015 [vikas] *******************
+************************************************************/
+
+/***RUSSIA**/
+.russia-bg {
+    background: url(https://staticmain.narendramodi.in/images/flag_russia.jpg) #b10a01;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:100% !important;
+    min-height:700px;
+}
+
+
+.title_russia {
+    margin: 0 auto;
+    width: 52%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_russia h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_russia h2 span.hashTag {
+    color: #818181;
+}
+.title_russia h2 span.in_russia {
+    color: #1011c9;
+}
+.title_russia h2 span.countryRussia {
+    color: #890800;
+}
+.title_russia h2 b {
+    color: #5f0922
+}
+
+
+.Agneda-box_3nationtour .social_icon_russia_home {
+    background-color: #890800;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Agneda-box_3nationtour .social_icon_russia_home:hover {
+    background-color: #2e3192;
+}
+.Agneda-box_3nationtour .social_icon_russia_home img {
+
+}
+
+.media-menu-russia {
+    float: left;
+    width: 100%;
+    margin: 50px 0 45px 0px;
+    padding: 0;
+}
+.media-menu-russia ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.media-menu-russia ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    border-right:#efefef solid 1px;
+    list-style: none;
+}
+.media-menu-russia ul li.bg-none {
+    background-image: none;
+}
+.media-menu-russia ul li a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: 'GillSansBold';
+    padding: 6px 90px 0 90px;
+}
+.media-menu-russia ul li a.inaus {
+    color: #921811;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 37px 6px;
+}
+.media-menu-russia ul li a.inaus b {
+    color: #0000c5;
+    font-weight: normal;
+}
+.media-menu-russia ul li a.inaus span {
+    color: #2e3192;
+}
+.media-menu-russia ul li a:hover {
+    color: #fff;
+}
+.media-menu-russia ul li a.inaus:hover, .media-menu-russia ul li a.inaus.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 37px -36px #921811;
+    color: #fff;
+}
+
+.media-menu-russia ul li a.socialbuzz {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -75px;
+}
+.media-menu-russia ul li a.socialbuzz:hover, .media-menu-russia ul li a.socialbuzz.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -116px #921811;
+    color: #fff;
+}
+.media-menu-russia ul li a.agenda {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 16px -161px;
+}
+.media-menu-russia ul li a.agenda:hover, .media-menu-russia ul li a.agenda.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 16px -203px #921811;
+    color: #fff;
+}
+.media-menu-russia ul li a.media-coverage {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -255px;
+}
+.media-menu-russia ul li a.media-coverage:hover, .media-menu-russia ul li a.media-coverage.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -298px #921811;
+    color: #fff;
+}
+.media-menu-russia ul li a.meet-pm {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    padding: 6px 0 0 72px;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 22px -339px;
+    width: 138px;
+}
+.media-menu-russia ul li a.meet-pm:hover, .media-menu-russia ul li a.meet-pm.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 22px -380px #921811;
+    color: #fff;
+    width: 138px;
+}
+.media-menu-russia ul li a.updates {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -434px;
+}
+
+.media-menu-russia ul li a.updates:hover, .media-menu-russia ul li a.updates.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -475px #921811;
+    color: #fff;
+}
+
+
+.media-menu-russia ul li a.int_speeches {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -522px;
+}
+
+
+.media-menu-russia ul li a.int_speeches:hover, .media-menu-russia ul li a.int_speeches.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -565px #921811;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+/***END RUSSIA**/
+
+
+
+/***CentralAsia**/
+.centralAsia-bg {
+    background: url(https://staticmain.narendramodi.in/images/centralAsia_flag.jpg) #001f46;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:100% !important;
+    min-height:700px;
+}
+
+
+.uae-bg {
+    background: url(https://staticmain.narendramodi.in/images/uaeFlag.jpg) #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:100% !important;
+    min-height:700px;
+    padding-top:40px;
+}
+
+.title_CentralAsia {
+    margin: 0 auto;
+    width: 52%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_CentralAsia h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_CentralAsia h2 span.hashTag {
+    color: #818181;
+}
+.title_CentralAsia h2 span.in_CentralAsia {
+    color: #818181;
+}
+.title_CentralAsia h2 span.countryCentralAsia {
+    color: #024c33;
+}
+.title_CentralAsia h2 b {
+    color: #5f0922
+}
+
+
+.title_uae {
+    margin: 0 auto;
+    width: 41%;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+}
+.title_uae h2 {
+    float: left;
+    font-size: 45px;
+    color: #2e3192;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-family: 'GillSans';
+}
+.title_uae h2 span.hashTag {
+    color: #818181;
+}
+.title_uae h2 span.in_uaeu {
+    color: #818181;
+}
+.title_uae h2 span.uaeu {
+    color: #024c33;
+}
+.title_uae h2 b {
+    color: #5f0922
+}
+
+
+.Agneda-box_3nationtour .social_icon_CentralAsia_home {
+    background-color: #207633;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+.Agneda-box_3nationtour .social_icon_CentralAsia_home:hover {
+    background-color: #2e3192;
+}
+
+
+.Agneda-box_3nationtour .social_icon_uae_home {
+    background-color: #006f32;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 75px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom:15px;
+}
+
+.Agneda-box_3nationtour .social_icon_uae_home:hover {
+    background-color: #2e3192;
+}
+
+
+.Agneda-box_3nationtour .social_icon_uae_home img {
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.media-menu-centralAsia {
+    float: left;
+    width: 100%;
+    margin: 50px 0 45px 0px;
+    padding: 0;
+}
+.media-menu-centralAsia ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.media-menu-centralAsia ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    border-right:#efefef solid 1px;
+    list-style: none;
+}
+.media-menu-centralAsia ul li.bg-none {
+    background-image: none;
+}
+.media-menu-centralAsia ul li a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: 'GillSansBold';
+
+    padding: 6px 50px 0 80px;
+}
+.media-menu-centralAsia ul li a.inaus {
+    color: #0a5b1c;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 37px 6px;
+}
+
+.media-menu-centralAsia ul li a.ebook {
+    color: #0a5b1c;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/ebfr.png) no-repeat 39px 9px;
+}
+
+.media-menu-centralAsia ul li a.ebook:hover, .media-menu-centralAsia ul li a.ebook.active {
+    background: url(https://staticmain.narendramodi.in/images/iconSmallEbookHover.png) no-repeat 39px 9px #0a5b1c;
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.inaus b {
+    color: #818181;
+    font-weight: normal;
+}
+.media-menu-centralAsia ul li a.inaus span {
+    color: #2e3192;
+}
+.media-menu-centralAsia ul li a:hover {
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.inaus:hover, .media-menu-centralAsia ul li a.inaus.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 37px -36px #0a5b1c;
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.socialbuzz {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -75px;
+}
+.media-menu-centralAsia ul li a.socialbuzz:hover, .media-menu-centralAsia ul li a.socialbuzz.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -119px #0a5b1c;
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.agenda {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 16px -161px;
+}
+.media-menu-centralAsia ul li a.agenda:hover, .media-menu-centralAsia ul li a.agenda.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 16px -203px #0a5b1c;
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.media-coverage {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -255px;
+}
+.media-menu-centralAsia ul li a.media-coverage:hover, .media-menu-centralAsia ul li a.media-coverage.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -298px #0a5b1c;
+    color: #fff;
+}
+.media-menu-centralAsia ul li a.meet-pm {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    padding: 6px 0 0 72px;
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 22px -339px;
+    width: 138px;
+}
+.media-menu-centralAsia ul li a.meet-pm:hover, .media-menu-centralAsia ul li a.meet-pm.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 22px -380px #0a5b1c;
+    color: #fff;
+    width: 138px;
+}
+.media-menu-centralAsia ul li a.updates {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -432px;
+}
+.media-menu-centralAsia ul li a.updates:hover, .media-menu-centralAsia ul li a.updates.active {
+    background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewv3.png) no-repeat 33px -475px #0a5b1c;
+    color: #fff;
+}
+
+
+/***CentralAsia**/
+
+/***********************************************************
+**********END********** 04-07-2015 [vikas] *******************
+************************************************************/
+
+/*survey css*/
+a.quickSurvey{ 
+    display:table; 
+    background:#2e3192; 
+    padding:10px 55px 10px 20px; 
+    color:white; 
+    border-radius:4px;  
+    font-family: "ufonts_com_gillsans";
+    font-size:18px; 
+    position:relative;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;
+    cursor:pointer;
+}
+
+a.quickSurvey:hover{
+    background:#e28212;
+    color:white;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+}
+
+a.quickSurvey img{ 
+    position:absolute; 
+    top: 7px; 
+    right:15px;
+}
+
+.quicksurveyBtn {
+    text-align: center;
+    margin: 20px 0 50px 73px;
+}
+
+.surveyMain{ float:left; width:100%; }
+
+.rightBoxbg {
+    float: left;
+    width: 100%;
+    padding-bottom:20px;
+}
+
+a.nextBtnSurvey{
+    display:table; 
+    background:#2e3192; 
+    padding:8px 15px 8px 15px; 
+    color:#fff; 
+    font-family: 'GillSansmt';
+    font-size:13px; 
+    position:relative;
+    float:right;
+    text-transform:uppercase;
+    letter-spacing:0.8px;
+    border-radius:5px;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+}
+
+a.nextBtnSurvey:hover{
+    background:#e28212;
+    color:white;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+}
+
+
+a.prevBtnSurvey{
+    display:table; 
+    background:#2e3192; 
+    padding:8px 15px 8px 15px; 
+    color:#fff; 
+    font-family: 'GillSansmt';
+    font-size:13px; 
+    position:relative;
+    float:left;
+    text-transform:uppercase;
+    letter-spacing:0.8px;
+    border-radius:5px;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+}
+
+a.prevBtnSurvey:hover{
+    background:#e28212;
+    color:white;
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+}
+
+.surveyTextArea{ border:#747474 solid 1px; width:100%; height:60px; padding-left:5px; padding-top:5px;  resize: vertical;}
+
+ul.surveryque{
+    margin:0; 
+    padding:0;  
+    font-family: 'GillSansBold';
+    color:#5c5c5c; 
+    border-bottom:#dfdfdf solid 1px; 
+    padding-bottom:5px; 
+    margin-bottom:5px;
+    font-size:16px;
+
+}
+
+ul.SurveyOptions{
+    margin:0; 
+    padding:0;  
+    font-family: 'GillSansmt'; 
+    color:#747474;
+    margin-top:10px;
+}
+
+ul.SurveyOptions li{
+    font-family: 'GillSansmt'; 
+    color:#747474;
+    padding:7px; 
+    -webkit-transition:500ms ease;
+    -moz-transition:500ms ease;
+    -o-transition:500ms ease;
+    transition:500ms ease;	
+
+}
+
+
+ul.SurveyOptions li:hover{ background:#efefee;   -webkit-transition:500ms ease;
+                           -moz-transition:500ms ease;
+                           -o-transition:500ms ease;
+                           transition:500ms ease;	
+}
+
+ul.SurveyOptions input{}
+
+ul.surveryque li.first{ display:table-cell; padding-right:5px;}
+ul.surveryque li.second{ display:table-cell; line-height:140%;}
+.surveyClear{ clear:both;}
+
+.surveyBtnsets{ margin-top:10px; border-top:#d3d3d3 solid 1px; padding-top:15px;}
+
+.SurveyImage{ margin-bottom:10px; border:#ebebeb  groove 0px;}
+.SurveyIframe{ margin-bottom:10px; border:#ebebeb  groove 0px;}
+
+.surveyCommentsbox{}
+
+
+
+.surveyError{ 
+    color:red; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px;
+    padding-bottom:20px;
+    font-weight:bold;
+    display:none;
+}
+
+.surveyError img{ float:left; margin-right:5px; margin-top:-3px;}
+
+ul.SurveyOptions li input[type="radio"] {
+    display:none;
+}
+ul.SurveyOptions li input[type="radio"] + label {
+    font-family: 'GillSansmt'; 
+    color:#000;
+    font-size:16px;
+    letter-spacing:0.5px;
+    font-weight:normal;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+
+}
+ul.SurveyOptions li input[type="radio"] + label span {
+    display:inline-block;
+    width:18px;
+    height:18px;
+    margin:-1px 7px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+    border:#8f8f8f solid 1px;
+}
+
+ul.SurveyOptions li input[type="radio"] + label span {
+    background-color:#fff;
+}
+
+ul.SurveyOptions li input[type="radio"]:checked + label span{
+    background-color: #2e3192;
+}
+
+ul.SurveyOptions li input[type="radio"] + label span,
+ul.SurveyOptions li input[type="radio"]:checked + label span {
+    -webkit-transition:background-color 0.2s linear;
+    -o-transition:background-color 0.2s linear;
+    -moz-transition:background-color 0.2s linear;
+    transition:background-color 0.2s linear;
+}
+
+div#thank_id img {
+    float: left;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.panel.panel-default.panel_theme {
+    box-shadow: none;
+}
+
+.newsletter {
+    vertical-align: middle;
+}
+
+.borderRadius30 {
+    background-color: #fff;
+    background: #fff;
+    border-radius: 10px;
+    border: #000 solid 5px;
+}
+
+tweetLabel2{ font-size:20px; padding-left:10px;}
+
+.addressbook {
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+}
+.addressbook ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.addressbook ul li {
+    width: 100%;
+    float: left;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.addressbook ul li a {
+    width: 100%;
+    float: left;
+    display: block
+}
+.addressbook ul li:hover {
+    background: #ffffd7;
+}
+.addressbook ul li.hotmail a {
+    height: 21px;
+    background-image: url(https://staticmain.narendramodi.in/images/addressbook.gif);
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}
+
+.addressbook ul li.gmail a {
+    height: 21px;
+    background-image: url(https://staticmain.narendramodi.in/images/addressbook.gif);
+    background-position: 0px -39px;
+    background-repeat: no-repeat;
+}
+
+.jwlogo{
+    display:none!important;	
+}
+
+
+/** USA CSS Start **/
+
+.usa-bg {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #000000;
+    background-image: url("https://staticmain.narendramodi.in/images/usaFlag.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto !important;
+    float: left;
+    margin: 0;
+    min-height: 700px;
+    padding: 40px 0 0;
+    width: 100%;
+}
+.title_usa {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 41%;
+}
+.title_usa h2 {
+    color: #2e3192;
+    float: left;
+    font-family: "GillSans";
+    font-size: 45px;
+    margin: 0;
+    padding: 0 25px 0 0;
+    font-weight: bold;
+}
+.title_usa h2 span.hashTag {
+    color: #818181;
+}
+.title_usa h2 span.in_usau {
+    color: #818181;
+}
+.title_usa h2 span.usau {
+    color: #d6251f;
+    text-transform:uppercase;
+}
+.Agneda-box_3nationtour .social_icon_usa_home {
+    background-color: #d6251f;
+    border-radius: 50%;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 75px;
+}
+
+.Agneda-box_3nationtour .social_icon_sc_home {
+    background-color: #5f0922;
+    border-radius: 50%;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 75px;
+}
+
+
+.Agneda-box_3nationtour .social_icon_gr_home {
+    background-color: #5f0922;
+    border-radius: 50%;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 75px;
+}
+
+.Agneda-box_3nationtour .social_icon_gr_home:hover {
+    background-color: #f6931e;	
+}
+
+.Agneda-box_3nationtour .social_icon_sc_home:hover {
+    background-color: #f6931e;	
+}
+
+
+
+
+.Agneda-box_3nationtour .social_icon_fr_home {
+    background-color: #5f0922;
+    border-radius: 50%;
+    height: 75px;
+    line-height: 75px;
+    margin: 0 auto 0px;
+    text-align: center;
+    vertical-align: middle;
+    width: 75px;
+}
+
+.Agneda-box_3nationtour .social_icon_fr_home:hover {
+    background-color: #f6931e;	
+}
+
+
+
+.media-menu-usa {
+    margin-bottom: 50px;
+    float: left;
+}
+.media-menu-usa ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.media-menu-usa ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    border-right:#efefef solid 1px;
+    list-style: none;
+}
+.media-menu-usa ul li.bg-none {
+    background-image: none;
+}
+.media-menu-usa ul li a {
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: 'GillSansBold';
+    padding: 6px 93px 0 97px;
+}
+.media-menu-usa ul li a.inaus {
+    color: #d6251f;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 37px 6px;
+}
+
+.media-menu-usa ul li a.ebook {
+    color: #d6251f;
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/iconSmallEbook.png) no-repeat 39px 9px;
+}
+
+.media-menu-usa ul li a.ebook:hover, .media-menu-usa ul li a.ebook.active {
+    background: url(https://staticmain.narendramodi.in/images/iconSmallEbookHover.png) no-repeat 39px 9px #d6251f;
+    color: #fff;
+}
+
+.media-menu-usa ul li a.inaus b {
+    color: #818181;
+    font-weight: normal;
+}
+.media-menu-usa ul li a.inaus span {
+    color: #2e3192;
+}
+.media-menu-usa ul li a:hover {
+    color: #fff;
+}
+.media-menu-usa ul li a.inaus:hover, .media-menu-usa ul li a.inaus.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 37px -36px #d6251f;
+    color: #fff;
+}
+.media-menu-usa ul li a.socialbuzz {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -75px;
+}
+.media-menu-usa ul li a.socialbuzz:hover, .media-menu-usa ul li a.socialbuzz.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -116px #d6251f;
+    color: #fff;
+}
+.media-menu-usa ul li a.agenda {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 16px -161px;
+}
+.media-menu-usa ul li a.agenda:hover, .media-menu-usa ul li a.agenda.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 16px -203px #d6251f;
+    color: #fff;
+}
+.media-menu-usa ul li a.media-coverage {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -255px;
+}
+.media-menu-usa ul li a.media-coverage:hover, .media-menu-usa ul li a.media-coverage.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -298px #d6251f;
+    color: #fff;
+}
+.media-menu-usa ul li a.meet-pm {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+    padding: 6px 0 0 72px;
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 22px -339px;
+    width: 138px;
+}
+.media-menu-usa ul li a.meet-pm:hover, .media-menu-usa ul li a.meet-pm.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 22px -380px #d6251f;
+    color: #fff;
+    width: 138px;
+}
+
+.media-menu-usa ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -522px; }
+.media-menu-usa ul li a.int_speeches:hover,
+.media-menu-usa ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -567px #e30100; color: #fff; }
+
+.media-menu-usa ul li a.updates {
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+    float: left;
+    margin: 0;
+
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -429px;
+}
+.media-menu-usa ul li a.updates:hover, .media-menu-usa ul li a.updates.active {
+    background: url(https://staticmain.narendramodi.in/images/spriteUsa2.png) no-repeat 33px -475px #d6251f;
+    color: #fff;
+}
+.Agneda-box_3nationtour .social_icon_usa_home img {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.Agneda-box_3nationtour .social_icon_fr_home img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Agneda-box_3nationtour .social_icon_gr_home img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.Agneda-box_3nationtour .social_icon_sc_home img {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.nmint{
+    
+    width: 100%;
+    margin-left: 103px!important;	
+}
+
+/** USA CSS End **/
+
+
+/***********************************************************************************
+ *
+ * UK Visit Page Styles
+ *
+ ***********************************************************************************/
+
+.uk-bg {
+    background: url(https://staticmain.narendramodi.in/images/flag_britain.jpg) no-repeat #6a0000;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.uk-bg .post-block_3nationtour { margin: 0px 41px 20px 0px; }
+
+.title_UK {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_UK h2 { float: left; font-weight: bold; font-size: 45px; color: #2e3192; margin: 0; padding: 0 25px 0 0; font-family: 'GillSans', sans-serif; }
+.title_UK h2 span.hashTag { color: #818181; }
+.title_UK h2 span.in_china { color: #818181; }
+.title_UK h2 span.countryChina { color: #eb2c15; }
+.title_UK h2 b { color: #5f0922 }
+.title_UK h2 span.countryUK { color: #073181; }
+
+.Agneda-box_3nationtour .social_icon_UK_home { background-color:#e30100; width: 75px; height: 75px; border-radius:50%; line-height:75px; vertical-align:middle; text-align:center; margin:0 auto; }
+.Agneda-box_3nationtour .social_icon_UK_home:hover { background-color:#2e3192; }
+.Agneda-box_3nationtour .social_icon_UK_home img{ margin-top:0px; }
+
+.media-menu_3nationtour_pg ul li a.inaus { color: #5F0922; font-size: 18px; text-decoration: none; float: left; margin: 0; padding: 2px 50px 0 67px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px 2px; height: 45px; }
+.media-menu_3nationtour_pg ul li a.inaus b { color: #818181 !important; font-weight: normal !important; }
+.media-menu_3nationtour_pg ul li a.inaus span { color: #2e3192 !important; }
+.media-menu_3nationtour_pg ul li a.inaus span.span_UK { color: #073181; }
+.media-menu_3nationtour_pg ul li a:hover { color: #fff; }
+.media-menu_3nationtour_pg ul li a.inaus:hover,
+.media-menu_3nationtour_pg ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px -40px #5f0922; color: #fff; }
+
+.media-menu-uk {
+    float: left;
+    width: 100%;
+    margin: 50px 0px 45px;
+    padding: 0px;
+}
+.media-menu-uk ul li { float: left; margin: 0px; padding: 0px; background: #FFF none repeat scroll 0% 0%; border-right: 1px solid #EFEFEF; list-style: outside none none; }
+.media-menu-uk ul li a { color: #000000; font-size: 18px; text-decoration: none; /*line-height: 45px;*/ font-family: 'GillSansBold'; padding: 0 92px 0 92px; display: block; width: ; text-align: left; line-height: 50px; }
+.media-menu-uk ul li a:hover,
+.media-menu-uk ul li a.active { background: #E30100; }
+.media-menu-uk ul li a.inaus { color: #bd1f1f; font-size: 18px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 37px 3px; }
+.media-menu-uk ul li a.inaus b { color: #818181; font-weight: normal; }
+.media-menu-uk ul li a.inaus span { color: #2e3192; }
+.media-menu-uk ul li a:hover { color: #fff; }
+.media-menu-uk ul li a.inaus:hover,
+.media-menu-china ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 37px -36px #e30100; color: #fff; }
+.media-menu-uk ul li a.inaus span.span_UK { color: #073181; }
+.media-menu-uk ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -522px; }
+.media-menu-uk ul li a.int_speeches:hover,
+.media-menu-uk ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -567px #e30100; color: #fff; }
+.media-menu-uk ul li a.socialbuzz { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -75px; }
+.media-menu-uk ul li a.socialbuzz:hover,
+.media-menu-uk ul li a.socialbuzz.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -116px #e30100; color: #fff; }
+.media-menu-uk ul li a.agenda { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 16px -161px; }
+.media-menu-uk ul li a.agenda:hover,
+.media-menu-uk ul li a.agenda.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 16px -203px #e30100; color: #fff; }
+.media-menu-uk ul li a.media-coverage { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -256px; }
+.media-menu-uk ul li a.media-coverage:hover,
+.media-menu-uk ul li a.media-coverage.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -296px #e30100; color: #fff; }
+.media-menu-uk ul li a.meet-pm { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; padding: 6px 0 0 72px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 22px -339px; width: 138px; }
+.media-menu-uk ul li a.meet-pm:hover,
+.media-menu-uk ul li a.meet-pm.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 22px -380px #e30100; color: #fff; width: 138px; }
+.media-menu-uk ul li a.updates { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -77px; }
+.media-menu-uk ul li a.updates:hover,
+.media-menu-uk ul li a.updates.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -117px #e30100; color: #fff; }
+
+.uk_updates-items { margin-left: -30px; margin-right: -30px; }
+.mainContainer .nav-tabs.nav_int { margin-bottom: 25px; }
+.mainContainer .nav-tabs.nav_int > li { background: #343b50; }
+.mainContainer .nav-tabs.nav_int > li > a { font-size: 30px; color: #FFF; border-radius: 0; }
+.mainContainer .nav-tabs.nav_int.nav-justified > .active > a,.mainContainer .nav-tabs.nav_int.nav-justified > .active > a:hover,.mainContainer .nav-tabs.nav_int.nav-justified > .active > a:focus
+{
+    border:none;
+    border-radius:0px;
+}
+.mainContainer .nav-tabs.nav_int.nav-justified > li > a
+{
+    border:none;
+}
+.demoClass
+{
+
+}
+
+/***********************************************************************************
+ *
+ * G20 Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitg20-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/g_20_bg.jpg") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.title_summitg20 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_summitg20 h2 { float: left; font-weight: bold; font-size: 45px; color: #2e3192; margin: 0; padding: 0 25px 0 0; font-family: 'GillSans', sans-serif; }
+.title_summitg20 h2 span.hashTag { color: #818181; }
+.title_summitg20 h2 span.in_china { color: #818181; }
+.title_summitg20 h2 span.countryChina { color: #eb2c15; }
+.title_summitg20 h2 b { color: #5f0922 }
+
+.title_summitg20 h2 span.int_summitg20 { color: #292560; }
+
+.Agneda-box_3nationtour .social_icon_summitg20_home { background-color:#292560; width: 75px; height: 75px; border-radius:50%; line-height:75px; vertical-align:middle; text-align:center; margin:0 auto; }
+.Agneda-box_3nationtour .social_icon_summitg20_home:hover { background-color:#2e3192; }
+.Agneda-box_3nationtour .social_icon_summitg20_home img{ margin-top:0px; }
+
+.media-menu_3nationtour_pg ul li a.inaus { color: #5F0922; font-size: 18px; text-decoration: none; float: left; margin: 0; padding: 2px 50px 0 67px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px 2px; height: 45px; }
+.media-menu_3nationtour_pg ul li a.inaus b { color: #818181 !important; font-weight: normal !important; }
+.media-menu_3nationtour_pg ul li a.inaus span { color: #2e3192 !important; }
+.media-menu_3nationtour_pg ul li a.inaus span.span_UK { color: #073181; }
+.media-menu_3nationtour_pg ul li a:hover { color: #fff; }
+.media-menu_3nationtour_pg ul li a.inaus:hover,
+.media-menu_3nationtour_pg ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 26px -40px #5f0922; color: #fff; }
+
+.media-menu-g20 {
+    float: left;
+    width: 100%;
+    margin: 50px 0px 45px;
+    padding: 0px;
+}
+.media-menu-g20 ul li { float: left; margin: 0px; padding: 0px; background: #FFF none repeat scroll 0% 0%;/* border-right: 1px solid #EFEFEF;*/ list-style: outside none none; }
+.media-menu-g20 ul li a { color: #000000; font-size: 18px; text-decoration: none; /*line-height: 45px;*/ padding: 0 76px; display: block;   text-align: left; line-height: 50px;  border-right: #fff solid 1px; }
+.media-menu-g20 ul li:last-child a {
+    border: none;
+}
+.media-menu-g20 ul li a:hover,
+.media-menu-g20 ul li a.active { background: #292562; }
+.media-menu-g20 ul li a.inaus { color: #bd1f1f; font-size: 18px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 37px 3px; }
+.media-menu-g20 ul li a.inaus b { color: #818181; font-weight: normal; }
+.media-menu-g20 ul li a.inaus span { color: #2e3192; }
+
+.media-menu-g20.euindia ul li a {
+    padding: 0 84px;
+    border-right: #fff solid 1px;
+}
+
+.media-menu-g20.euindia ul li:last-child a {
+    border: none;
+}
+.media-menu-g20 ul li a:hover { color: #fff; }
+.media-menu-g20 ul li a.inaus:hover,
+.media-menu-g20 ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 37px -36px #292562; color: #FFF; }
+.media-menu-g20 ul li a.inaus span.span_g20 { color: #292562; }
+.media-menu-g20 ul li a.inaus:hover span.span_g20,
+.media-menu-g20 ul li a.inausg20 span.span_g20 { color: #FFF; }
+
+.media-menu-g20 ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -522px; }
+.media-menu-g20 ul li a.int_speeches:hover,
+.media-menu-g20 ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -567px #292562; color: #FFF; }
+
+.media-menu-g20 ul li a.socialbuzz { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -75px; }
+.media-menu-g20 ul li a.socialbuzz:hover,
+.media-menu-g20 ul li a.socialbuzz.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -116px #292562; color: #FFF; }
+
+.media-menu-g20 ul li a.agenda { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 16px -161px; }
+.media-menu-g20 ul li a.agenda:hover,
+.media-menu-g20 ul li a.agenda.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 16px -203px #292562; color: #FFF; }
+
+.media-menu-g20 ul li a.media-coverage { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -256px; }
+.media-menu-g20 ul li a.media-coverage:hover,
+.media-menu-g20 ul li a.media-coverage.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -296px #292562; color: #FFF; }
+
+.media-menu-g20 ul li a.meet-pm { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; padding: 6px 0 0 72px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 22px -339px; width: 138px; }
+.media-menu-g20 ul li a.meet-pm:hover,
+.media-menu-g20 ul li a.meet-pm.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 22px -380px #292562; color: #FFF; width: 138px; }
+
+.media-menu-g20 ul li a.updates { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -77px; }
+.media-menu-g20 ul li a.updates:hover,
+.media-menu-g20 ul li a.updates.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG20.png) no-repeat 33px -117px #292562; color: #FFF; }
+
+.g20_updates-items { margin-left: -30px; margin-right: -30px; }
+
+
+/***********************************************************************************
+ *
+ * Nuclear Security Page Styles
+ *
+ ***********************************************************************************/
+
+.euSec-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/EU-India1.jpeg?v=1") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.sco-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/SCO-low.jpg?v=2") repeat-x scroll center 0;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.nuSec-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/Nuclear-Security1.jpeg?v=1") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+.nuSec-bg .title_summitg20 h2 { font-size: 38px; }
+
+/***********************************************************************************
+ *
+ * ASEAN Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitasean-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/aseanback2.jpg") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.media-menu-uk ul li a.inaus span.span_asean { color: #e30102; }
+.media-menu-uk ul li:hover a.inaus span.span_asean { color: #FFF; }
+
+/***********************************************************************************
+ *
+ * WorldEconomicForum Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.worldeconomicforum-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/world-economic-forum-davos-switzerland.jpg") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+} 
+
+/***********************************************************************************
+ *
+ * CHOGM summit Page Styles
+ *
+ ***********************************************************************************/
+
+.chogmsubmit-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/e57d756a-1d61-408c-9b2a-c3bb80e2c371-chogm-submit.jpg") repeat-x scroll center 0;
+    background-size: 115%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+} 
+
+/***********************************************************************************
+ *
+ * BRICS Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitbrics-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/BRICS_BG.jpg") repeat-x scroll center 0;
+    background-size: 125%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.summitbimstec-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/bimstec_bk.jpg") repeat-x scroll center 0;
+    background-size: 125%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.media-menu-uk ul li a.inaus span.span_brics { color: #e30102; }
+.media-menu-uk ul li:hover a.inaus span.span_brics { color: #FFF; }
+
+
+/***********************************************************************************
+ *
+ * FIPIC Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitfipic-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/FIPIC_BG.jpg") repeat-x scroll center 0;
+    background-size: 125%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.media-menu-uk ul li a.inaus span.span_fipic { color: #e30102; }
+.media-menu-uk ul li:hover a.inaus span.span_fipic { color: #FFF; }
+
+/***********************************************************************************
+ *
+ * G4 Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitg4-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/G4_BG.jpg") repeat-x scroll center 0;
+    background-size: 140%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.title_summitg4 {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_summitg4 h2 { float: left; font-weight: bold; font-size: 45px; color: #2e3192; margin: 0; padding: 0 25px 0 0; font-family: 'GillSans', sans-serif; }
+.title_summitg4 h2 span.hashTag { color: #818181; }
+.title_summitg4 h2 span.in_china { color: #818181; }
+.title_summitg4 h2 span.countryChina { color: #eb2c15; }
+.title_summitg4 h2 b { color: #5f0922 }
+
+.title_summitg4 h2 span.int_summitg4 { color: #0181ca; }
+
+.Agneda-box_3nationtour .social_icon_summitg4_home { background-color:#0181ca; width: 75px; height: 75px; border-radius:50%; line-height:75px; vertical-align:middle; text-align:center; margin:0 auto; }
+.Agneda-box_3nationtour .social_icon_summitg4_home:hover { background-color:#2e3192; }
+.Agneda-box_3nationtour .social_icon_summitg4_home img{ margin-top:0px; }
+
+.media-menu_3nationtour_pg ul li a.inaus { color: #5F0922; font-size: 18px; text-decoration: none; float: left; margin: 0; padding: 2px 50px 0 67px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px 2px; height: 45px; }
+.media-menu_3nationtour_pg ul li a.inaus b { color: #818181 !important; font-weight: normal !important; }
+.media-menu_3nationtour_pg ul li a.inaus span { color: #2e3192 !important; }
+.media-menu_3nationtour_pg ul li a.inaus span.span_UK { color: #073181; }
+.media-menu_3nationtour_pg ul li a:hover { color: #fff; }
+.media-menu_3nationtour_pg ul li a.inaus:hover,
+.media-menu_3nationtour_pg ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 26px -40px #5f0922; color: #fff; }
+
+.media-menu-g4 {
+    float: left;
+    width: 100%;
+    margin: 50px 0px 45px;
+    padding: 0px;
+}
+.media-menu-g4 ul li { float: left; margin: 0px; padding: 0px; background: #FFF none repeat scroll 0% 0%;/* border-right: 1px solid #EFEFEF;*/ list-style: outside none none; }
+.media-menu-g4 ul li a { color: #000000; font-size: 18px; text-decoration: none; /*line-height: 45px;*/ font-family: 'GillSansBold'; padding: 0 0 0 78px; display: block; width: 100%; text-align: left; line-height: 50px; }
+.media-menu-g4 ul li a:hover,
+.media-menu-g4 ul li a.active { background: #008ddf; }
+.media-menu-g4 ul li a.inaus { color: #bd1f1f; font-size: 18px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 37px 3px; }
+.media-menu-g4 ul li a.inaus b { color: #818181; font-weight: normal; }
+.media-menu-g4 ul li a.inaus span { color: #2e3192; }
+
+.media-menu-g4 ul li a:hover { color: #fff; }
+.media-menu-g4 ul li a.inaus:hover,
+.media-menu-g4 ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 37px -36px #008ddf; color: #FFF; }
+.media-menu-g4 ul li a.inaus span.span_g4 { color: #008ddf; }
+.media-menu-g4 ul li a.inaus:hover span.span_g4,
+.media-menu-g4 ul li a.inausg20 span.span_g4 { color: #FFF; }
+
+.media-menu-g4 ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -522px; }
+.media-menu-g4 ul li a.int_speeches:hover,
+.media-menu-g4 ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -567px #008ddf; color: #FFF; }
+
+.media-menu-g4 ul li a.socialbuzz { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -75px; }
+.media-menu-g4 ul li a.socialbuzz:hover,
+.media-menu-g4 ul li a.socialbuzz.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -116px #008ddf; color: #FFF; }
+
+.media-menu-g4 ul li a.agenda { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 16px -161px; }
+.media-menu-g4 ul li a.agenda:hover,
+.media-menu-g4 ul li a.agenda.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 16px -203px #008ddf; color: #FFF; }
+
+.media-menu-g4 ul li a.media-coverage { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -256px; }
+.media-menu-g4 ul li a.media-coverage:hover,
+.media-menu-g4 ul li a.media-coverage.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -296px #008ddf; color: #FFF; }
+
+.media-menu-g4 ul li a.meet-pm { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; padding: 6px 0 0 72px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 22px -339px; width: 138px; }
+.media-menu-g4 ul li a.meet-pm:hover,
+.media-menu-g4 ul li a.meet-pm.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 22px -380px #008ddf; color: #FFF; width: 138px; }
+
+.media-menu-g4 ul li a.updates { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -77px; }
+.media-menu-g4 ul li a.updates:hover,
+.media-menu-g4 ul li a.updates.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 33px -117px #008ddf; color: #FFF; }
+
+/***********************************************************************************
+ *
+ * SAARC Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitsaarc-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/SAARC.jpg") repeat-x scroll center 50%;
+    background-size: 150%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.title_summitsaarc {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px 0 20px 0;
+    overflow: hidden;
+}
+.title_summitsaarc h2 { float: left; font-weight: bold; font-size: 45px; color: #2e3192; margin: 0; padding: 0 25px 0 0; font-family: 'GillSans', sans-serif; }
+.title_summitsaarc h2 span.hashTag { color: #818181; }
+.title_summitsaarc h2 span.in_china { color: #818181; }
+.title_summitsaarc h2 span.countryChina { color: #eb2c15; }
+.title_summitsaarc h2 b { color: #5f0922 }
+
+.title_summitsaarc h2 span.int_summitsaarc { color: #b89821; }
+
+.Agneda-box_3nationtour .social_icon_summitsaarc_home { background-color:#b89821; width: 75px; height: 75px; border-radius:50%; line-height:75px; vertical-align:middle; text-align:center; margin:0 auto; }
+.Agneda-box_3nationtour .social_icon_summitsaarc_home:hover { background-color:#2e3192; }
+.Agneda-box_3nationtour .social_icon_summitsaarc_home img{ margin-top:0px; }
+
+.media-menu_3nationtour_pg ul li a.inaus { color: #5F0922; font-size: 18px; text-decoration: none; float: left; margin: 0; padding: 2px 50px 0 67px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 26px 2px; height: 45px; }
+.media-menu_3nationtour_pg ul li a.inaus b { color: #818181 !important; font-weight: normal !important; }
+.media-menu_3nationtour_pg ul li a.inaus span { color: #2e3192 !important; }
+.media-menu_3nationtour_pg ul li a.inaus span.span_UK { color: #073181; }
+.media-menu_3nationtour_pg ul li a:hover { color: #fff; }
+.media-menu_3nationtour_pg ul li a.inaus:hover,
+.media-menu_3nationtour_pg ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteG4.png) no-repeat 26px -40px #5f0922; color: #fff; }
+
+.media-menu-saarc {
+    float: left;
+    width: 100%;
+    margin: 50px 0px 45px;
+    padding: 0px;
+}
+.media-menu-saarc ul li { float: left; margin: 0px; padding: 0px; background: #FFF none repeat scroll 0% 0%;/* border-right: 1px solid #EFEFEF;*/ list-style: outside none none; }
+.media-menu-saarc ul li a { color: #000000; font-size: 18px; text-decoration: none; /*line-height: 45px;*/ font-family: 'GillSansBold'; padding: 0 0 0 78px; display: block; width: 100%; text-align: left; line-height: 50px; }
+.media-menu-saarc ul li a:hover,
+.media-menu-saarc ul li a.active { background: #b89821; }
+.media-menu-saarc ul li a.inaus { color: #bd1f1f; font-size: 18px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 37px 3px; }
+.media-menu-saarc ul li a.inaus b { color: #818181; font-weight: normal; }
+.media-menu-saarc ul li a.inaus span { color: #2e3192; }
+
+.media-menu-saarc ul li a:hover { color: #fff; }
+.media-menu-saarc ul li a.inaus:hover,
+.media-menu-saarc ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 37px -36px #b89821; color: #FFF; }
+.media-menu-saarc ul li a.inaus span.span_saarc { color: #b89821; }
+.media-menu-saarc ul li a.inaus:hover span.span_saarc,
+.media-menu-saarc ul li a.inausg20 span.span_saarc { color: #FFF; }
+
+.media-menu-saarc ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -522px; }
+.media-menu-saarc ul li a.int_speeches:hover,
+.media-menu-saarc ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -567px #b89821; color: #000; }
+
+.media-menu-saarc ul li a.socialbuzz { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -75px; }
+.media-menu-saarc ul li a.socialbuzz:hover,
+.media-menu-saarc ul li a.socialbuzz.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -116px #b89821; color: #000; }
+
+.media-menu-saarc ul li a.agenda { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 16px -161px; }
+.media-menu-saarc ul li a.agenda:hover,
+.media-menu-saarc ul li a.agenda.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 16px -203px #b89821; color: #000; }
+
+.media-menu-saarc ul li a.media-coverage { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -256px; }
+.media-menu-saarc ul li a.media-coverage:hover,
+.media-menu-saarc ul li a.media-coverage.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -296px #b89821; color: #000; }
+
+.media-menu-saarc ul li a.meet-pm { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; padding: 6px 0 0 72px; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 22px -339px; width: 138px; }
+.media-menu-saarc ul li a.meet-pm:hover,
+.media-menu-saarc ul li a.meet-pm.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 22px -380px #b89821; color: #000; width: 138px; }
+
+.media-menu-saarc ul li a.updates { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -77px; }
+.media-menu-saarc ul li a.updates:hover,
+.media-menu-saarc ul li a.updates.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteSaarc.png) no-repeat 33px -117px #b89821; color: #000; }
+
+.g20_updates-items { margin-left: -30px; margin-right: -30px; }
+
+/***********************************************************************************
+ *
+ * SAARC Summit Page Styles
+ *
+ ***********************************************************************************/
+
+.summitiafs-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/IAFS_BG.jpg") repeat-x scroll center 50%;
+    background-size: 150%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+
+.mankibatUpdate.update_gutterspace {
+    min-height: 180px;
+}
+.mankibatUpdate.update_gutterspace .head_line1 {
+    line-height: normal;
+    font-size: 16px;
+    margin-top:0;
+}
+.mankibatUpdate.update_gutterspace .right_desc p { color: black; margin-bottom: 15px; } 
+
+
+/***********************************************************************************
+ *
+ * Malaysia visit Page Styles
+ *
+ ***********************************************************************************/
+
+.visitmalaysia-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/flag_malaysia.jpg?v=1") repeat-x scroll center 0;
+    background-size: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+.title_UK h2 span.countryMalaysia { color: #2f2c97; }
+
+.media-menu-malaysia {
+    float: left;
+    width: 100%;
+    margin: 50px 0px 45px;
+    padding: 0px;
+}
+.media-menu-malaysia ul li { float: left; margin: 0px; padding: 0px; background: #FFF none repeat scroll 0% 0%;/* border-right: 1px solid #EFEFEF;*/ list-style: outside none none; }
+.media-menu-malaysia ul li a { color: #000000; font-size: 18px; text-decoration: none; /*line-height: 45px;*/ font-family: 'GillSansBold'; padding: 0 0 0 78px; display: block; width: 100%; text-align: left; line-height: 50px; }
+.media-menu-malaysia ul li a:hover,
+.media-menu-malaysia ul li a.active { background: #b89821; }
+.media-menu-malaysia ul li a.inaus { color: #bd1f1f; font-size: 18px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 37px 3px; }
+.media-menu-malaysia ul li a.inaus b { color: #818181; font-weight: normal; }
+.media-menu-malaysia ul li a.inaus span { color: #2e3192; }
+
+.media-menu-malaysia ul li a:hover { color: #fff; }
+.media-menu-malaysia ul li a.inaus:hover,
+.media-menu-malaysia ul li a.inaus.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 37px -36px #2f2c97; color: #FFF; }
+.media-menu-malaysia ul li a.inaus span.span_saarc { color: #b89821; }
+.media-menu-malaysia ul li a.inaus:hover span.span_saarc,
+.media-menu-malaysia ul li a.inausg20 span.span_saarc { color: #FFF; }
+
+
+.media-menu-malaysia ul li a.inaus span.span_malaysia { color: #2f2c97; }
+.media-menu-malaysia ul li:hover a.inaus span.span_malaysia { color: #FFF; }
+
+.media-menu-malaysia ul li a.int_speeches { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -522px; }
+.media-menu-malaysia ul li a.int_speeches:hover,
+.media-menu-malaysia ul li a.int_speeches.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNew.png) no-repeat 33px -567px #2f2c97; color: #FFF; }
+
+.media-menu-malaysia ul li a.media-coverage { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -256px; }
+.media-menu-malaysia ul li a.media-coverage:hover,
+.media-menu-malaysia ul li a.media-coverage.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -296px #2f2c97; color: #FFF; }
+
+.media-menu-malaysia ul li a.updates { color: #000; font-size: 17px; text-decoration: none; float: left; margin: 0; background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -77px; }
+.media-menu-malaysia ul li a.updates:hover,
+.media-menu-malaysia ul li a.updates.active { background: url(https://staticmain.narendramodi.in/images/mediaSpriteNewmangolia.png) no-repeat 33px -117px #2f2c97; color: #FFF; }
+
+
+/***********************************************************************************
+ *
+ * Singapore visit Page Styles
+ *
+ ***********************************************************************************/
+
+.visitsingapore-bg {
+    background: #000 url("https://staticmain.narendramodi.in/images/singback_2018.jpg") repeat-x scroll center 0;
+    background-size: 125%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    float: left;
+}
+
+
+div#noRecords {
+    margin: 150px 0;
+    color: #2e3192;
+    font-size: 30px;
+}
+
+.gridPanel{ margin-bottom:50px; float:left;}
+
+
+/*mankibaat new layout*/
+
+.newMankibaat{
+	width:100%;
+	float:left;
+	margin-top:20px;
+}
+
+.newMankibaatColumn{
+	width:281px;
+	float:left;
+	border:#cccccc solid 1px;
+	
+	margin-right:7px;
+	margin-bottom:7px;
+}
+
+.newMankibaatColumn:nth-child(4n){
+margin-right:0px;	
+}
+.readMoreDv{ width:90%; margin:0 auto; background:#2e3192; margin-bottom:35px;}
+
+.newMankibaatColumn figure{
+ width:100%;
+ float:left;
+ height:133px;
+}
+
+.newMankibaatColumn .detailNew{
+	
+	float:left;
+	width:100%;
+}
+
+.newMankibaatColumn .detailNew h5 {
+    font-family: 'ek_muktabold';
+    font-size: 17px;
+    color: #2e3192;
+    padding: 8px 10px 8px;
+    margin: 0;
+    min-height: 46px;
+}
+.detailNewBtn{
+margin-left:10px;
+float:left;
+}
+.BtnMannkibaatNew{ float:left; margin-bottom:15px; margin-right:10px;}
+
+.BtnMannkibaatNew a {
+	border: none;
+	background: #2e3192;
+	border-left: #20b7cd solid 5px;
+	padding: 2px 15px;
+	font-family: 'ek_muktaregular';
+	font-size: 16px;
+	color: #fff;
+ }
+.BtnMannkibaatNew a:hover {
+	background: #20b7cd;
+	border-left: #2e3192 solid 5px;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.newMankibaatColumn figure {
+    width: 100%;
+    float: left;
+}
+
+.readMoreInnerContent{ padding:15px 20px 15px;}
+
+.readMoreInnerContent h5{
+    font-family: 'ek_muktaregular';
+    font-size: 20px;
+    color: #fff;
+ 	padding: 0 0 8px;
+	margin:0;
+	border-bottom:#fff solid 1px;
+ }
+ 
+ .detailMankibatNew{
+    font-family: 'ek_muktaregular';
+    font-size: 16px;
+    color: #fff;
+	line-height:24px;
+	padding:10px 0 0 0;
+ }
+ 
+ .closeBtnRead{ float:right}
+ 
+ /*mankibaat new layout*/
+ 
+ .nmtubeDtlLeft iframe{border:0}
+ .nmtubetitle.bg {
+    background: url(https://staticmain.narendramodi.in/images/nmtubeCatBg.png);
+    height: 330px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+ .nmtubetitle2 {
+    height: 324px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nmtubeDtlLeft1 iframe{border:0}
+
+iframe {border:0}

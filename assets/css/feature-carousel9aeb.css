@@ -1,0 +1,174 @@
+/********************
+ * FEATURE CAROUSEL *
+ ********************/
+.carousel-container {
+  position:relative;
+  width:100%;
+}
+#carousel {
+  height:649px;
+  width:1155px;
+   position:relative;
+  margin-bottom:0.5em;
+  font-size:12px;
+  font-family: Arial;
+}
+
+#carouselEbook {
+  height:399px;
+  width:1000px;
+   position:relative;
+  margin-bottom:0.5em;
+  font-size:12px;
+  font-family: Arial;
+   margin:0 auto;
+}
+
+.carousel-image {
+  border:0;
+  display:block;
+}
+
+
+#carouselEbook .carousel-caption .head2{ 	font-family: 'ek_muktaregular';
+	font-size: 16px;
+	color: #2e3192;
+	text-shadow:none;
+	margin:0px;
+	margin-top:10px;
+	FONT-WEIGHT: BOLD;
+}
+
+#carouselEbook .carousel-caption .head3{ 	font-family: 'ek_muktaregular';
+	font-size: 16px;
+	color: #2e3192;
+	text-shadow:none
+}
+
+#carousel .carousel-feature img{ width:600px!important; height:400px!important}
+
+ 
+ 
+#carouselEbook  .carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+   cursor:pointer;
+  overflow:hidden;
+  border-radius:3px;
+-moz-box-shadow: none;
+-webkit-box-shadow: none;
+box-shadow: none;
+height:500px!important
+
+}
+.carousel-feature {
+  position:absolute;
+  top:-1000px;
+  left:-1000px;
+   cursor:pointer;
+  overflow:hidden;
+  border-radius:3px;
+-moz-box-shadow: 0 0 10px #000;
+-webkit-box-shadow: 0 0 10px#000;
+box-shadow: 0 0 10px #000;}
+
+ 
+ .carousel-feature .carousel-caption {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background: url(../images/blogHoverBg.png);
+  left:0; right:0; padding:0;
+}
+ 
+#carouselEbook .carousel-feature .carousel-caption {
+  position:relative;
+  bottom:0;
+  width:100%;
+  background: none;
+  left:0; right:0; padding:0;
+}
+
+
+.carousel-feature .carousel-caption p.head {
+  margin:0;
+  padding:10px 20px 0;
+  	color: #fff;
+	font-family: 'ek_muktaregular';
+	font-size: 26px;
+	text-align:left
+
+}
+
+.carousel-feature .carousel-caption p.date {
+  margin:0;
+  padding:0px 20px 10px;
+  	color: #fff;
+	font-family: 'ek_muktaregular';
+	font-size: 18px;
+	text-align:left
+
+}
+.tracker-summation-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:230px;
+  padding:3px;
+  margin:3px;
+  background-color:#000;
+}
+.tracker-individual-container {
+  position:absolute;
+  color:white;
+  right:48px;
+  top:210px;
+  padding:0;
+  margin:0;
+}
+.tracker-individual-container li {
+  list-style:none;
+}
+.tracker-individual-container .tracker-individual-blip {
+  margin:0 3px;
+  padding:0 3px;
+  color:white;
+  text-align:center;
+  background-color:#DDD;
+}
+.tracker-individual-container .tracker-individual-blip-selected {
+  color:white;
+  font-weight:bold;
+  background-color:#000;
+}
+#carousel-left {
+  position:absolute;
+  top:50%;
+  left:50px;
+  cursor:pointer;
+  z-index:99999999999999;
+}
+#carousel-right {
+  position:absolute;
+  top:50%;
+  right:50px;
+  cursor:pointer;
+  z-index:99999999999999;
+}
+
+.eventsCra #carousel-left {
+  position:absolute;
+  top:33%;
+  left:50px;
+  cursor:pointer;
+  z-index:99999999999999;
+}
+.eventsCra  #carousel-right {
+  position:absolute;
+  top:33%;
+  right:50px;
+  cursor:pointer;
+  z-index:99999999999999;
+}
+
